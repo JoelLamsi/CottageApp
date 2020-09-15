@@ -12,72 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1097550782,
-        "Kind": "Components.Component",
-        "Name": "CottageApp.Pages.FetchData",
-        "AssemblyName": "CottageApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -277971176,
-        "Kind": "Components.Component",
-        "Name": "CottageApp.Pages.FetchData",
-        "AssemblyName": "CottageApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CottageApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -12552282,
-        "Kind": "Components.Component",
-        "Name": "CottageApp.Pages.Error",
-        "AssemblyName": "CottageApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Error"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Pages.Error"
-        }
-      },
-      {
-        "HashCode": 799802785,
-        "Kind": "Components.Component",
-        "Name": "CottageApp.Pages.Error",
-        "AssemblyName": "CottageApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CottageApp.Pages.Error"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Pages.Error",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1329618297,
         "Kind": "Components.Component",
         "Name": "CottageApp.Pages.Index",
@@ -111,68 +45,35 @@
         }
       },
       {
-        "HashCode": 1562931348,
+        "HashCode": -12552282,
         "Kind": "Components.Component",
-        "Name": "CottageApp.Pages.Counter",
+        "Name": "CottageApp.Pages.Error",
         "AssemblyName": "CottageApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Error"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Pages.Counter"
+          "Common.TypeName": "CottageApp.Pages.Error"
         }
       },
       {
-        "HashCode": 2041890015,
+        "HashCode": 799802785,
         "Kind": "Components.Component",
-        "Name": "CottageApp.Pages.Counter",
+        "Name": "CottageApp.Pages.Error",
         "AssemblyName": "CottageApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CottageApp.Pages.Counter"
+            "TagName": "CottageApp.Pages.Error"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 574494728,
-        "Kind": "Components.Component",
-        "Name": "CottageApp.Shared.NavMenu",
-        "AssemblyName": "CottageApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -546640875,
-        "Kind": "Components.Component",
-        "Name": "CottageApp.Shared.NavMenu",
-        "AssemblyName": "CottageApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CottageApp.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CottageApp.Shared.NavMenu",
+          "Common.TypeName": "CottageApp.Pages.Error",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -322,6 +223,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "CottageApp.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 574494728,
+        "Kind": "Components.Component",
+        "Name": "CottageApp.Shared.NavMenu",
+        "AssemblyName": "CottageApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CottageApp.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -546640875,
+        "Kind": "Components.Component",
+        "Name": "CottageApp.Shared.NavMenu",
+        "AssemblyName": "CottageApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CottageApp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CottageApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14744,11 +14678,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\dev\\CottageApp\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "e:\\dev\\CottageApp\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
@@ -14766,11 +14695,6 @@
     {
       "FilePath": "e:\\dev\\CottageApp\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\dev\\CottageApp\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
