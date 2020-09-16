@@ -1,0 +1,113 @@
+@page "/addcottage"
+
+<style>
+    div {
+        margin-bottom: 20px;
+    }
+</style>
+
+@* <EditForm Model="@cottage" OnValidSubmit="@Save">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold">Title</label>
+        <InputText class="form-control col-6" @bind-Value="cottage.Title" />
+    </div>
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold">Description</label>
+        <InputTextArea class="form-control col-6" @bind-Value="cottage.Description" />
+    </div>
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold">Cost per Day</label>
+        <InputNumber class="form-control col-6" @bind-Value="@cottage.CostPerDay" />
+    </div>
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold"># of Rooms</label>
+        <InputNumber class="form-control col-6" @bind-Value="cottage.Rooms" />
+    </div>
+    <div class="col-12 row">
+        <MatCheckbox Label="Is Sauna" @bind-Value="cottage.IsSauna" />
+        <MatCheckbox Label="Is Electricity" @bind-Value="cottage.IsElectricity" />
+    </div>
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold">Image</label>
+        <MatFileUpload Class="form-control-file col-6" OnChange="UploadImage"></MatFileUpload>
+    </div>
+    <MatDivider />
+    <MatH3>Contact Information</MatH3>
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold">First Name</label>
+        <InputText class="form-control col-3" @bind-Value="owner.FirstName" />
+        <label class="col-2 font-weight-bold">Last Name</label>
+        <InputText class="form-control col-3" @bind-Value="owner.FirstName" />
+    </div>
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold">Phone</label>
+        <InputText class="form-control col-3" @bind-Value="owner.PhoneNumber" />
+        <label class="col-2 font-weight-bold">Email</label>
+        <InputText class="form-control col-3" @bind-Value="owner.Email" />
+    </div>
+    <div class="col-12 row">
+        <label class="col-2 font-weight-bold">Street Address</label>
+        <InputText class="form-control col-4" @bind-Value="owner.HomeAddress.StreetAddress" /><br />
+        <label class="col-2 font-weight-bold">Zip Code</label>
+        <InputText class="form-control col-2" @bind-Value="owner.HomeAddress.ZipCode" />
+        <label class="col-2 font-weight-bold">City</label>
+        <InputText class="form-control col-3" @bind-Value="owner.HomeAddress.City" /><br />
+        <label class="col-2 font-weight-bold">Region</label>
+        <InputText class="form-control col-3" @bind-Value="owner.HomeAddress.Region" />
+        <label class="col-2 font-weight-bold">Country</label>
+        <InputText class="form-control col-3" @bind-Value="owner.HomeAddress.Country" />
+    </div>
+    <button type="submit">Save</button>
+</EditForm> *@
+
+@code {
+    private Cottage cottage { get; set; }
+    // private Person owner { get; set; } = new Person();
+
+    protected override void OnInitialized()
+    {
+        cottage = new Cottage();
+        cottage.PictureUrl = "/Pictures/empty.PNG";
+        @* owner.HomeAddress = new Address(); *@
+        base.OnInitialized();
+    }
+
+    private void Save()
+    {
+        // TODO:
+        var title = cottage.Title;
+
+    }
+
+    private void Invalid()
+    {
+
+    }
+
+    /*private async Task UploadImage(IMatFileEntry[] files)
+    {
+        if (files[0].Data.CanRead)
+        {
+            var imgName = files[0].Name;
+            if (!String.IsNullOrEmpty(imgName))
+            {
+                cottage.PictureUrl = $"/Pictures/{imgName}";
+            }
+
+            cottage.PictureUrl = $"/Pictures/{files[0].Name}";
+            var ms = new MemoryStream();
+            await files[0].Data.CopyToAsync(ms);
+
+
+            var img = new MultipartFormDataContent
+                {
+                    new ByteArrayContent(ms.GetBuffer())
+                };
+        } else
+        {
+
+        }
+    }*/
+}
