@@ -1,4 +1,7 @@
-@page "/addcottage"
+@page "/postcottage"
+@using System.IO
+@using System.Text.Json;
+@using System.Text.Json.Serialization;
 
 <style>
     div {
@@ -6,16 +9,16 @@
     }
 </style>
 
-@* <EditForm Model="@cottage" OnValidSubmit="@Save">
+<EditForm Model="@cottage" OnValidSubmit="@Save">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Title</label>
-        <InputText class="form-control col-6" @bind-Value="cottage.Title" />
+        <InputText class="form-control col-6" @bind-Value="@cottage.Title" />
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Description</label>
-        <InputTextArea class="form-control col-6" @bind-Value="cottage.Description" />
+        <InputTextArea class="form-control col-6" @bind-Value="@cottage.Description" />
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Cost per Day</label>
@@ -23,23 +26,24 @@
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold"># of Rooms</label>
-        <InputNumber class="form-control col-6" @bind-Value="cottage.Rooms" />
+        <InputNumber class="form-control col-6" @bind-Value="@cottage.Rooms" />
     </div>
     <div class="col-12 row">
-        <MatCheckbox Label="Is Sauna" @bind-Value="cottage.IsSauna" />
-        <MatCheckbox Label="Is Electricity" @bind-Value="cottage.IsElectricity" />
+        <MatCheckbox Label="Is Sauna" @bind-Value="@(cottage.IsSauna)" />
+        <MatCheckbox Label="Is Electricity" @bind-Value="@(cottage.IsElectricity)"  />
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Image</label>
-        <MatFileUpload Class="form-control-file col-6" OnChange="UploadImage"></MatFileUpload>
+        <MatFileUpload Label="Drop or Browse a picture of the Cottage" AllowMultiple="false" Class="form-control-file col-6" OnChange="@UploadImage"></MatFileUpload>
     </div>
-    <MatDivider />
-    <MatH3>Contact Information</MatH3>
+    <textarea>@fileContent</textarea>
+    @* <MatDivider />
+    <MatH4>Contact Information</MatH4>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">First Name</label>
         <InputText class="form-control col-3" @bind-Value="owner.FirstName" />
         <label class="col-2 font-weight-bold">Last Name</label>
-        <InputText class="form-control col-3" @bind-Value="owner.FirstName" />
+        <InputText class="form-control col-3" @bind-Value="owner.LastName" />
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Phone</label>
@@ -49,7 +53,7 @@
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Street Address</label>
-        <InputText class="form-control col-4" @bind-Value="owner.HomeAddress.StreetAddress" /><br />
+        <InputText class="form-control col-4" @bind-Value="owner.HomeAddress.StreetAddress" />
         <label class="col-2 font-weight-bold">Zip Code</label>
         <InputText class="form-control col-2" @bind-Value="owner.HomeAddress.ZipCode" />
         <label class="col-2 font-weight-bold">City</label>
@@ -58,27 +62,34 @@
         <InputText class="form-control col-3" @bind-Value="owner.HomeAddress.Region" />
         <label class="col-2 font-weight-bold">Country</label>
         <InputText class="form-control col-3" @bind-Value="owner.HomeAddress.Country" />
-    </div>
+    </div> *@
     <button type="submit">Save</button>
-</EditForm> *@
+</EditForm>
 
 @code {
     private Cottage cottage { get; set; }
-    // private Person owner { get; set; } = new Person();
+    //private Person owner { get; set; }
+    string fileContent;
 
     protected override void OnInitialized()
     {
         cottage = new Cottage();
+        //owner = new Person();
         cottage.PictureUrl = "/Pictures/empty.PNG";
-        @* owner.HomeAddress = new Address(); *@
+        
+        //owner.HomeAddress = new Address();
         base.OnInitialized();
     }
 
-    private void Save()
+    private async Task Save()
     {
-        // TODO:
-        var title = cottage.Title;
-
+        cottage.DateAdded = DateTime.Now;
+        
+        using (var fs = new FileStream("wwwroot/data/cottages.json", FileMode.Create))
+        {
+            await JsonSerializer.SerializeAsync(fs, cottage);
+            Console.WriteLine("Saved to: " + fs.Name);
+        }
     }
 
     private void Invalid()
@@ -86,28 +97,76 @@
 
     }
 
-    /*private async Task UploadImage(IMatFileEntry[] files)
+    private async Task UploadImage(IMatFileUploadEntry[] files)
     {
-        if (files[0].Data.CanRead)
+        Console.WriteLine("Uploading...");
+        try
         {
-            var imgName = files[0].Name;
-            if (!String.IsNullOrEmpty(imgName))
+            var file = files.FirstOrDefault();
+            if (file != null)
             {
-                cottage.PictureUrl = $"/Pictures/{imgName}";
-            }
-
-            cottage.PictureUrl = $"/Pictures/{files[0].Name}";
-            var ms = new MemoryStream();
-            await files[0].Data.CopyToAsync(ms);
-
-
-            var img = new MultipartFormDataContent
+                Console.WriteLine(file.Type);
+                var imgName = file.Name;
+                if (!String.IsNullOrEmpty(imgName))
                 {
-                    new ByteArrayContent(ms.GetBuffer())
-                };
-        } else
-        {
+                    cottage.PictureUrl = $"/Pictures/{imgName}";
+                }
 
+                cottage.PictureUrl = $"/Pictures/{file.Name}";
+
+                using (var ms = new MemoryStream())
+                {
+                    Console.WriteLine(file.Size);
+                    await file.WriteToStreamAsync(ms);
+
+                    if (ms.Length > 1024 * 1024)
+                    {
+                        Console.WriteLine("Bar");
+                        fileContent = "";
+                        fileContent += $"Name:\t{file.Name}\r\n";
+                        fileContent += $"Type:\t{file.Type}\r\n";
+                        fileContent += $"LastModified:\t{file.LastModified}\r\n";
+                        fileContent += $"Size:\t{file.Size}\r\n";
+                        @* fileContent += $"Time:\t{sw.Elapsed}\r\n";
+                        fileContent += $"Speed:\t{(stream.Length / sw.Elapsed.TotalSeconds):N0}  b/s\r\n";  *@
+                    }
+                    else
+                    {
+                        ms.Seek(0, SeekOrigin.Begin);
+                        using (var reader = new System.IO.StreamReader(ms))
+                        {
+                            fileContent = await reader.ReadToEndAsync();
+
+                            using (var fs = new FileStream($"/dev/CottageApp/Backend/wwwroot/img/{file.Name}", FileMode.Create, FileAccess.ReadWrite))
+                            {
+                                byte[] bytes = new byte[ms.Length];
+                                ms.Read(bytes, 0, (int)ms.Length);
+                                fs.Write(bytes, 0, bytes.Length);
+                                var img = System.Drawing.Image.FromStream(ms);
+
+                                //img.Save($"/dev/CottageApp/Backend/wwwroot/Pictures/{file.Name}", img.RawFormat);
+                                img.Save(ms, img.RawFormat);
+
+                                Console.WriteLine();
+                                ms.Close();
+                            }
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("File null");
+            }
         }
-    }*/
+ 
+        catch (Exception e)
+        {
+            fileContent = $"Error:\r\n{e.Message}\r\n{e.StackTrace}";
+        }
+        finally
+        {
+            await InvokeAsync(StateHasChanged);
+        }
+    }
 }

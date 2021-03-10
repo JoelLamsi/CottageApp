@@ -1,7 +1,67 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@foreach (var cottage in cottages)
+{
+    <MatCard class="mat-card" style="margin-bottom: 1vw;">
+        <MatCardContent>
+            <div class="mat-layout-grid mat-layout-grid-align-left" style="max-width: 800px;">
+                <div class="mat-layout-grid-inner">
+                    <div class="mat-layout-grid-cell">
+                        <img src="@cottage.PictureUrl" height="100vw" width="100vw"/>
+                    </div>
 
-Welcome to your new app.
+                    <div class="mat-layout-grid-cell">
+                        <div class="mat-card-content">
+                            <MatHeadline5>@cottage.Title</MatHeadline5>
+                        </div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+                        <MatBody2 Class="mat-card-content">
+                            <p class="card-text">@cottage.Description</p>
+                            <small>@cottage.DateAdded.Date.ToString("dd.M.yyyy")</small><br />
+                            @* <strong>Ratings: </strong>
+
+                            @for (var i = 0; i < 5; i++)
+                            {
+                                if (i < cottage.AvgRating)
+                                {
+                                    <span class="fa fa-star checked"></span>;
+                                }
+                                else
+                                {
+                                    <span class="fa fa-star unchecked"></span>;
+                                }
+                            } *@
+                            @* <button class="btn btn-primary" @onclick="@(() => ReservationState.ShowReservationDialog(cottage))">Make a Reservation</button> *@
+                        </MatBody2>
+                    </div>
+                </div>
+            </div>
+            
+        </MatCardContent>
+    </MatCard>
+}
+
+@code {
+    public Cottage cottage { get; set; }
+    bool isLoading = false;
+    private List<Cottage> cottages { get; set; }
+
+    protected override void OnInitialized()
+    {
+        cottages = new List<Cottage>()
+        {
+            new Cottage()
+            {
+                Title = "Foo",
+                Description = "This is a Foo",
+                PictureUrl = "img/log-cabin-1886620_1920.jpg",
+                DateAdded = DateTime.Now
+            },
+            new Cottage()
+            {
+                Title = "Bar",
+                DateAdded = new DateTime(2020, 12, 31)
+            }
+        };
+    }
+}

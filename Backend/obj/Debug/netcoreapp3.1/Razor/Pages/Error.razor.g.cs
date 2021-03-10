@@ -79,6 +79,13 @@ using Backend.Data;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "E:\dev\CottageApp\Backend\_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/error")]
     public partial class Error : Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -1,0 +1,9 @@
+E:\dev\CottageApp\DataObjects\bin\Debug\netcoreapp3.1\DataObjects.deps.json
+E:\dev\CottageApp\DataObjects\bin\Debug\netcoreapp3.1\DataObjects.dll
+E:\dev\CottageApp\DataObjects\bin\Debug\netcoreapp3.1\DataObjects.pdb
+E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.csprojAssemblyReference.cache
+E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.AssemblyInfoInputs.cache
+E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.AssemblyInfo.cs
+E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.csproj.CoreCompileInputs.cache
+E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.dll
+E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.pdb
