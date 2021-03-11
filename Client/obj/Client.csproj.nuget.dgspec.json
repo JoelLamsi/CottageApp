@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dev\\CottageApp\\Client\\Client.csproj": {}
+    "e:\\dev\\CottageApp\\Client\\Client.csproj": {}
   },
   "projects": {
-    "E:\\dev\\CottageApp\\Client\\Client.csproj": {
+    "e:\\dev\\CottageApp\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dev\\CottageApp\\Client\\Client.csproj",
+        "projectUniqueName": "e:\\dev\\CottageApp\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "E:\\dev\\CottageApp\\Client\\Client.csproj",
+        "projectPath": "e:\\dev\\CottageApp\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "E:\\dev\\CottageApp\\Client\\obj\\",
+        "outputPath": "e:\\dev\\CottageApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

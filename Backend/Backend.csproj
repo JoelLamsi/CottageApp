@@ -13,6 +13,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataObjects\DataObjects.csproj" />
+    <ProjectReference Include="..\SharedComponents\SharedComponents.csproj" />
+    
   </ItemGroup>
 
 </Project>

@@ -12,68 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1044296570,
+        "HashCode": 1487221006,
         "Kind": "Components.Component",
-        "Name": "Backend.Pages.Index",
+        "Name": "Backend.App",
         "AssemblyName": "Backend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Pages.Index"
+          "Common.TypeName": "Backend.App"
         }
       },
       {
-        "HashCode": -1542083957,
+        "HashCode": 203604758,
         "Kind": "Components.Component",
-        "Name": "Backend.Pages.Index",
+        "Name": "Backend.App",
         "AssemblyName": "Backend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Backend.Pages.Index"
+            "TagName": "Backend.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1822247578,
-        "Kind": "Components.Component",
-        "Name": "Backend.Pages.PostCottage",
-        "AssemblyName": "Backend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PostCottage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Pages.PostCottage"
-        }
-      },
-      {
-        "HashCode": 1217393950,
-        "Kind": "Components.Component",
-        "Name": "Backend.Pages.PostCottage",
-        "AssemblyName": "Backend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Backend.Pages.PostCottage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Pages.PostCottage",
+          "Common.TypeName": "Backend.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -111,55 +78,121 @@
         }
       },
       {
-        "HashCode": -598438278,
+        "HashCode": -1822247578,
         "Kind": "Components.Component",
-        "Name": "Backend.Shared.SurveyPrompt",
+        "Name": "Backend.Pages.PostCottage",
         "AssemblyName": "Backend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "PostCottage"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Shared.SurveyPrompt"
+          "Common.TypeName": "Backend.Pages.PostCottage"
         }
       },
       {
-        "HashCode": -1023390701,
+        "HashCode": 1217393950,
         "Kind": "Components.Component",
-        "Name": "Backend.Shared.SurveyPrompt",
+        "Name": "Backend.Pages.PostCottage",
         "AssemblyName": "Backend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Backend.Shared.SurveyPrompt"
+            "TagName": "Backend.Pages.PostCottage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Backend.Pages.PostCottage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1044296570,
+        "Kind": "Components.Component",
+        "Name": "Backend.Pages.Index",
+        "AssemblyName": "Backend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Backend.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1542083957,
+        "Kind": "Components.Component",
+        "Name": "Backend.Pages.Index",
+        "AssemblyName": "Backend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Backend.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Backend.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 196986173,
+        "Kind": "Components.Component",
+        "Name": "Backend.Shared.CottageListItem",
+        "AssemblyName": "Backend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CottageListItem"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "cottage",
+            "TypeName": "Backend.Data.Cottage",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "cottage"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Shared.SurveyPrompt",
+          "Common.TypeName": "Backend.Shared.CottageListItem"
+        }
+      },
+      {
+        "HashCode": -1436797742,
+        "Kind": "Components.Component",
+        "Name": "Backend.Shared.CottageListItem",
+        "AssemblyName": "Backend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Backend.Shared.CottageListItem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "cottage",
+            "TypeName": "Backend.Data.Cottage",
+            "Metadata": {
+              "Common.PropertyName": "cottage"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Backend.Shared.CottageListItem",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -293,35 +326,55 @@
         }
       },
       {
-        "HashCode": 1487221006,
+        "HashCode": -598438278,
         "Kind": "Components.Component",
-        "Name": "Backend.App",
+        "Name": "Backend.Shared.SurveyPrompt",
         "AssemblyName": "Backend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.App"
+          "Common.TypeName": "Backend.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": 203604758,
+        "HashCode": -1023390701,
         "Kind": "Components.Component",
-        "Name": "Backend.App",
+        "Name": "Backend.Shared.SurveyPrompt",
         "AssemblyName": "Backend",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Backend.App"
+            "TagName": "Backend.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.App",
+          "Common.TypeName": "Backend.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -74284,6 +74337,11 @@
       "FilePath": "e:\\dev\\CottageApp\\Backend\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\dev\\CottageApp\\Backend\\Shared\\CottageListItem.razor",
+      "TargetPath": "Shared\\CottageListItem.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "e:\\dev\\CottageApp\\Backend\\_Imports.razor",

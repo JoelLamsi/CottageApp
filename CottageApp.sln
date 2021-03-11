@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{EADF1894-B1FC-457A-AF84-B6EED96156F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components", "Components\Components.csproj", "{EE50433B-81ED-4842-9871-1D4FB6699199}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{EADF1894-B1FC-457A-AF84-B6EED96156F5}.Release|x64.Build.0 = Release|Any CPU
 		{EADF1894-B1FC-457A-AF84-B6EED96156F5}.Release|x86.ActiveCfg = Release|Any CPU
 		{EADF1894-B1FC-457A-AF84-B6EED96156F5}.Release|x86.Build.0 = Release|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Release|x64.Build.0 = Release|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE50433B-81ED-4842-9871-1D4FB6699199}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -16,7 +16,7 @@ namespace Backend.Data
         public string Description { get; set; }
         public string PictureUrl { get; set; }
         [NotMapped]
-        public int[] Ratings { get; set; }
+        public int[] Ratings { get; set; } = new int[] {0};
         public DateTime DateAdded { get; set; }
         public int Rooms { get; set; }
         public bool IsSauna { get; set; }

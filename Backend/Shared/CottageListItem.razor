@@ -1,0 +1,26 @@
+<MatCard class="mat-card" style="max-width: 500px; margin-bottom: 10px;">
+    <div class="mat-card-content" style="margin-left: 20px; margin-top: 20px;">
+        <MatHeadline5 class="mat-card-clean-margin">@cottage.Title</MatHeadline5>
+    </div>
+    <MatCardContent>
+        <MatCardMedia Wide="true" ImageUrl="@cottage.PictureUrl"></MatCardMedia>
+        <MatBody1 class="mat-card-content mat-card-clean-margin" style="margin-left: 20px; margin-top: 20px; margin-right: 20px;">
+            <p style="text-overflow: clip;">@cottage.Description</p>
+            <small>@cottage.DateAdded.Date.ToString("dd.M.yyyy")</small><br />
+            
+            @for (var i = 0; i < 5; i++)
+            {
+                if (i < cottage.AvgRating)
+                {
+                    <MatIcon Icon="star_rate" Style="color: #fcc00a"></MatIcon>;
+                }
+            }
+            
+            @* <button class="btn btn-primary" @onclick="@(() => ReservationState.ShowReservationDialog(cottage))">Make a Reservation</button> *@
+        </MatBody1>
+    </MatCardContent>  
+</MatCard>
+
+@code {
+    [Parameter] public Cottage cottage { get; set; }
+}

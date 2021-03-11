@@ -98,10 +98,9 @@ using MatBlazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 44 "E:\dev\CottageApp\Backend\Pages\Index.razor"
+#line 9 "E:\dev\CottageApp\Backend\Pages\Index.razor"
        
     public Cottage cottage { get; set; }
-    bool isLoading = false;
     private List<Cottage> cottages { get; set; }
 
     protected override void OnInitialized()
@@ -111,14 +110,17 @@ using MatBlazor;
             new Cottage()
             {
                 Title = "Foo",
-                Description = "This is a Foo",
+                Description = $"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 PictureUrl = "img/log-cabin-1886620_1920.jpg",
-                DateAdded = DateTime.Now
+                DateAdded = DateTime.Now,
+                Ratings = new int[] {1,2, 4, 1, 3}
             },
             new Cottage()
             {
                 Title = "Bar",
-                DateAdded = new DateTime(2020, 12, 31)
+                PictureUrl = "img/cabin-1082063__340.webp",
+                DateAdded = new DateTime(2020, 12, 31),
+                Ratings = new int[] {5}
             }
         };
     }

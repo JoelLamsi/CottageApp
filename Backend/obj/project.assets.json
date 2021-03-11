@@ -398,6 +398,20 @@
         "runtime": {
           "bin/placeholder/DataObjects.dll": {}
         }
+      },
+      "SharedComponents/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataObjects": "1.0.0",
+          "MatBlazor": "2.8.0"
+        },
+        "compile": {
+          "bin/placeholder/SharedComponents.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedComponents.dll": {}
+        }
       }
     }
   },
@@ -1061,6 +1075,11 @@
       "type": "project",
       "path": "../DataObjects/DataObjects.csproj",
       "msbuildProject": "../DataObjects/DataObjects.csproj"
+    },
+    "SharedComponents/1.0.0": {
+      "type": "project",
+      "path": "../SharedComponents/SharedComponents.csproj",
+      "msbuildProject": "../SharedComponents/SharedComponents.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1069,6 +1088,7 @@
       "DataObjects >= 1.0.0",
       "MatBlazor >= 2.8.0",
       "Microsoft.EntityFrameworkCore >= 3.1.8",
+      "SharedComponents >= 1.0.0",
       "System.Drawing.Common >= 5.0.0-rc.1.20451.14"
     ]
   },
@@ -1103,6 +1123,9 @@
           "projectReferences": {
             "E:\\dev\\CottageApp\\DataObjects\\DataObjects.csproj": {
               "projectPath": "E:\\dev\\CottageApp\\DataObjects\\DataObjects.csproj"
+            },
+            "E:\\dev\\CottageApp\\SharedComponents\\SharedComponents.csproj": {
+              "projectPath": "E:\\dev\\CottageApp\\SharedComponents\\SharedComponents.csproj"
             }
           }
         }

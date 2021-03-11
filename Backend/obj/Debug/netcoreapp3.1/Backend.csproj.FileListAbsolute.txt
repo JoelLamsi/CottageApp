@@ -82,3 +82,7 @@ E:\dev\CottageApp\Backend\obj\Debug\netcoreapp3.1\Backend.RazorComponent.output.
 E:\dev\CottageApp\Backend\obj\Debug\netcoreapp3.1\scopedcss\bundle\Backend.styles.css
 E:\dev\CottageApp\Backend\bin\Debug\netcoreapp3.1\DataObjects.dll
 E:\dev\CottageApp\Backend\bin\Debug\netcoreapp3.1\DataObjects.pdb
+E:\dev\CottageApp\Backend\bin\Debug\netcoreapp3.1\SharedComponents.dll
+E:\dev\CottageApp\Backend\bin\Debug\netcoreapp3.1\SharedComponents.pdb
+E:\dev\CottageApp\Backend\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\CottageListItem.razor.g.cs
+E:\dev\CottageApp\Backend\obj\Debug\netcoreapp3.1\Razor\Shared\CottageListItem.razor.g.cs

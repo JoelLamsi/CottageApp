@@ -2,48 +2,12 @@
 
 @foreach (var cottage in cottages)
 {
-    <MatCard class="mat-card" style="margin-bottom: 1vw;">
-        <MatCardContent>
-            <div class="mat-layout-grid mat-layout-grid-align-left" style="max-width: 800px;">
-                <div class="mat-layout-grid-inner">
-                    <div class="mat-layout-grid-cell">
-                        <img src="@cottage.PictureUrl" height="100vw" width="100vw"/>
-                    </div>
-
-                    <div class="mat-layout-grid-cell">
-                        <div class="mat-card-content">
-                            <MatHeadline5>@cottage.Title</MatHeadline5>
-                        </div>
-
-                        <MatBody2 Class="mat-card-content">
-                            <p class="card-text">@cottage.Description</p>
-                            <small>@cottage.DateAdded.Date.ToString("dd.M.yyyy")</small><br />
-                            @* <strong>Ratings: </strong>
-
-                            @for (var i = 0; i < 5; i++)
-                            {
-                                if (i < cottage.AvgRating)
-                                {
-                                    <span class="fa fa-star checked"></span>;
-                                }
-                                else
-                                {
-                                    <span class="fa fa-star unchecked"></span>;
-                                }
-                            } *@
-                            @* <button class="btn btn-primary" @onclick="@(() => ReservationState.ShowReservationDialog(cottage))">Make a Reservation</button> *@
-                        </MatBody2>
-                    </div>
-                </div>
-            </div>
-            
-        </MatCardContent>
-    </MatCard>
+    <CottageListItem Cottage="@cottage"/>
+    @* <SharedComponents.CottageListItem Cottage="@cottage"/> *@
 }
 
 @code {
     public Cottage cottage { get; set; }
-    bool isLoading = false;
     private List<Cottage> cottages { get; set; }
 
     protected override void OnInitialized()
@@ -53,14 +17,17 @@
             new Cottage()
             {
                 Title = "Foo",
-                Description = "This is a Foo",
-                PictureUrl = "",
-                DateAdded = DateTime.Now
+                Description = $"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                PictureUrl = "img/log-cabin-1886620_1920.jpg",
+                DateAdded = DateTime.Now,
+                Ratings = new int[] {1,2, 4, 1, 3}
             },
             new Cottage()
             {
                 Title = "Bar",
-                DateAdded = new DateTime(2020, 12, 31)
+                PictureUrl = "img/cabin-1082063__340.webp",
+                DateAdded = new DateTime(2020, 12, 31),
+                Ratings = new int[] {5}
             }
         };
     }
