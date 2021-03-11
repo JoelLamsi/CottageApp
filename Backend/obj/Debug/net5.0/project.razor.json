@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Backend.csproj",
+  "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Backend.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -75535,54 +75535,54 @@
   "RootNamespace": "Backend",
   "Documents": [
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\_Host.cshtml",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\CottageListItem.razor",
-      "TargetPath": "Shared\\CottageListItem.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\PostCottage.razor",
-      "TargetPath": "Pages\\PostCottage.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\Error.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Pages\\Error.razor",
       "TargetPath": "Pages\\Error.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\_Imports.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Shared\\CottageListItem.razor",
+      "TargetPath": "Shared\\CottageListItem.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Backend\\Pages\\PostCottage.razor",
+      "TargetPath": "Pages\\PostCottage.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"

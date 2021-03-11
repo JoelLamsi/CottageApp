@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\GitHub\\CottageApp\\Client\\Client.csproj",
+  "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -12993,42 +12993,42 @@
   "RootNamespace": "Client",
   "Documents": [
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\Pages\\FetchData.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\Shared\\SurveyPrompt.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\Shared\\NavMenu.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\GitHub\\CottageApp\\Client\\Pages\\Index.razor",
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "e:\\GitHub\\temp\\CottageApp\\Client\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     }
