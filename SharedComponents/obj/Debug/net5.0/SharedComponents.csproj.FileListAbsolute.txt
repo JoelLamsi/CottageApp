@@ -1,0 +1,15 @@
+E:\GitHub\CottageApp\SharedComponents\bin\Debug\net5.0\SharedComponents.deps.json
+E:\GitHub\CottageApp\SharedComponents\bin\Debug\net5.0\SharedComponents.dll
+E:\GitHub\CottageApp\SharedComponents\bin\Debug\net5.0\ref\SharedComponents.dll
+E:\GitHub\CottageApp\SharedComponents\bin\Debug\net5.0\SharedComponents.pdb
+E:\GitHub\CottageApp\SharedComponents\bin\Debug\net5.0\DataObjects.dll
+E:\GitHub\CottageApp\SharedComponents\bin\Debug\net5.0\DataObjects.pdb
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.csprojAssemblyReference.cache
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.AssemblyInfoInputs.cache
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.AssemblyInfo.cs
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.csproj.CoreCompileInputs.cache
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.csproj.CopyComplete
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.dll
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\ref\SharedComponents.dll
+E:\GitHub\CottageApp\SharedComponents\obj\Debug\net5.0\SharedComponents.pdb

@@ -7,3 +7,12 @@ E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.AssemblyInfo.c
 E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.csproj.CoreCompileInputs.cache
 E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.dll
 E:\dev\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.pdb
+E:\GitHub\CottageApp\DataObjects\bin\Debug\netcoreapp3.1\DataObjects.deps.json
+E:\GitHub\CottageApp\DataObjects\bin\Debug\netcoreapp3.1\DataObjects.dll
+E:\GitHub\CottageApp\DataObjects\bin\Debug\netcoreapp3.1\DataObjects.pdb
+E:\GitHub\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.csprojAssemblyReference.cache
+E:\GitHub\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.AssemblyInfoInputs.cache
+E:\GitHub\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.AssemblyInfo.cs
+E:\GitHub\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.csproj.CoreCompileInputs.cache
+E:\GitHub\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.dll
+E:\GitHub\CottageApp\DataObjects\obj\Debug\netcoreapp3.1\DataObjects.pdb

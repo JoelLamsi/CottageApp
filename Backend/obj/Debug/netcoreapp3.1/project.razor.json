@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\dev\\CottageApp\\Backend\\Backend.csproj",
+  "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Backend.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": -1822247578,
-        "Kind": "Components.Component",
-        "Name": "Backend.Pages.PostCottage",
-        "AssemblyName": "Backend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PostCottage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Pages.PostCottage"
-        }
-      },
-      {
-        "HashCode": 1217393950,
-        "Kind": "Components.Component",
-        "Name": "Backend.Pages.PostCottage",
-        "AssemblyName": "Backend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Backend.Pages.PostCottage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Backend.Pages.PostCottage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1044296570,
         "Kind": "Components.Component",
         "Name": "Backend.Pages.Index",
@@ -140,6 +107,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Backend.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1822247578,
+        "Kind": "Components.Component",
+        "Name": "Backend.Pages.PostCottage",
+        "AssemblyName": "Backend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PostCottage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Backend.Pages.PostCottage"
+        }
+      },
+      {
+        "HashCode": 1217393950,
+        "Kind": "Components.Component",
+        "Name": "Backend.Pages.PostCottage",
+        "AssemblyName": "Backend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Backend.Pages.PostCottage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Backend.Pages.PostCottage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -74324,54 +74324,54 @@
   "RootNamespace": "Backend",
   "Documents": [
     {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Pages\\PostCottage.razor",
-      "TargetPath": "Pages\\PostCottage.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Shared\\CottageListItem.razor",
-      "TargetPath": "Shared\\CottageListItem.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Shared\\SurveyPrompt.razor",
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Pages\\Error.razor",
-      "TargetPath": "Pages\\Error.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Shared\\MainLayout.razor",
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\Shared\\NavMenu.razor",
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "e:\\dev\\CottageApp\\Backend\\App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Shared\\CottageListItem.razor",
+      "TargetPath": "Shared\\CottageListItem.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\PostCottage.razor",
+      "TargetPath": "Pages\\PostCottage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\Pages\\Error.razor",
+      "TargetPath": "Pages\\Error.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "e:\\GitHub\\CottageApp\\Backend\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
     }
   ],
   "SerializationFormat": "0.2"

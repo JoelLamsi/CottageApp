@@ -1,0 +1,12 @@
+E:\GitHub\CottageApp\DataObjects\bin\Debug\net5.0\DataObjects.deps.json
+E:\GitHub\CottageApp\DataObjects\bin\Debug\net5.0\DataObjects.dll
+E:\GitHub\CottageApp\DataObjects\bin\Debug\net5.0\ref\DataObjects.dll
+E:\GitHub\CottageApp\DataObjects\bin\Debug\net5.0\DataObjects.pdb
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.csprojAssemblyReference.cache
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.AssemblyInfoInputs.cache
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.AssemblyInfo.cs
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.csproj.CoreCompileInputs.cache
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.dll
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\ref\DataObjects.dll
+E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.pdb

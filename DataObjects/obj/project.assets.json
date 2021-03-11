@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\joell\\.nuget\\packages\\": {},
@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dev\\CottageApp\\DataObjects\\DataObjects.csproj",
+      "projectUniqueName": "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj",
       "projectName": "DataObjects",
-      "projectPath": "E:\\dev\\CottageApp\\DataObjects\\DataObjects.csproj",
+      "projectPath": "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj",
       "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-      "outputPath": "E:\\dev\\CottageApp\\DataObjects\\obj\\",
+      "outputPath": "E:\\GitHub\\CottageApp\\DataObjects\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -27,14 +27,14 @@
         "C:\\Users\\joell\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -45,8 +45,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
