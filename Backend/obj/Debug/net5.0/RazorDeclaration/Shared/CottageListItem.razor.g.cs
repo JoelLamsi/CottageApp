@@ -13,77 +13,77 @@ namespace Backend.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 1 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 2 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 3 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 4 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 5 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 6 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 7 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 8 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Backend;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 9 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Backend.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 10 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using Backend.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "e:\GitHub\CottageApp\Backend\_Imports.razor"
+#line 11 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
 using MatBlazor;
 
 #line default
@@ -97,9 +97,28 @@ using MatBlazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "e:\GitHub\CottageApp\Backend\Shared\CottageListItem.razor"
+#line 38 "C:\Users\joell\dev\CottageApp-master\Backend\Shared\CottageListItem.razor"
        
     [Parameter] public Cottage cottage { get; set; }
+    public Reservation Reservation { get; set; }
+    bool dialogIsOpen = false;
+
+    DateTime checkInDate = DateTime.Now;
+    DateTime checkOutDate = DateTime.Now;
+
+    decimal totalPrice = 0.00m;
+    
+    void MakeReservation()
+    {
+        dialogIsOpen = true;
+        Reservation = new Reservation();
+        Reservation.CheckInDate = DateTime.Now;
+        ReservationState rs = new ReservationState();
+        rs.Cottage = cottage;
+        TimeSpan interval = checkOutDate - checkInDate;
+        Reservation.TotalPrice = interval.Days * cottage.CostPerDay;
+        totalPrice = Reservation.TotalPrice;
+    }
 
 #line default
 #line hidden

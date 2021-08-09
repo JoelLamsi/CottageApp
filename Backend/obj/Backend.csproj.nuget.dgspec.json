@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\CottageApp\\Backend\\Backend.csproj": {}
+    "C:\\Users\\joell\\dev\\CottageApp-master\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\CottageApp\\Backend\\Backend.csproj": {
+    "C:\\Users\\joell\\dev\\CottageApp-master\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\CottageApp\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\joell\\dev\\CottageApp-master\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "E:\\GitHub\\CottageApp\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\joell\\dev\\CottageApp-master\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\CottageApp\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\joell\\dev\\CottageApp-master\\Backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\joell\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -29,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj": {
-                "projectPath": "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj"
+              "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj"
               },
-              "E:\\GitHub\\CottageApp\\SharedComponents\\SharedComponents.csproj": {
-                "projectPath": "E:\\GitHub\\CottageApp\\SharedComponents\\SharedComponents.csproj"
+              "C:\\Users\\joell\\dev\\CottageApp-master\\SharedComponents\\SharedComponents.csproj": {
+                "projectPath": "C:\\Users\\joell\\dev\\CottageApp-master\\SharedComponents\\SharedComponents.csproj"
               }
             }
           }
@@ -83,22 +80,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj": {
+    "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj",
+        "projectUniqueName": "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj",
         "projectName": "DataObjects",
-        "projectPath": "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj",
+        "projectPath": "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj",
         "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\CottageApp\\DataObjects\\obj\\",
+        "outputPath": "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\joell\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -138,22 +132,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\GitHub\\CottageApp\\SharedComponents\\SharedComponents.csproj": {
+    "C:\\Users\\joell\\dev\\CottageApp-master\\SharedComponents\\SharedComponents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\CottageApp\\SharedComponents\\SharedComponents.csproj",
+        "projectUniqueName": "C:\\Users\\joell\\dev\\CottageApp-master\\SharedComponents\\SharedComponents.csproj",
         "projectName": "SharedComponents",
-        "projectPath": "E:\\GitHub\\CottageApp\\SharedComponents\\SharedComponents.csproj",
+        "projectPath": "C:\\Users\\joell\\dev\\CottageApp-master\\SharedComponents\\SharedComponents.csproj",
         "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\CottageApp\\SharedComponents\\obj\\",
+        "outputPath": "C:\\Users\\joell\\dev\\CottageApp-master\\SharedComponents\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\joell\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -167,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj": {
-                "projectPath": "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj"
+              "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj"
               }
             }
           }
@@ -203,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

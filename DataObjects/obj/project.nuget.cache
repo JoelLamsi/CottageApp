@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cEUvq4lzG2fx+ny3tJUiB0S6Lvfhvpflbx2q5bBINSLLGfZYDVZPcVDZSePKt236lmxvgn8JG1ywPLai3To/tA==",
+  "dgSpecHash": "dQeERNoxbnYh9g/R0d+rQa+5WjMS1d6ESddcD/IFj7sMWCxtBGACXPNssUeYF9K6aX4Bv7s9zyQZVqJZPUHIMw==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\CottageApp\\DataObjects\\DataObjects.csproj",
+  "projectFilePath": "C:\\Users\\joell\\dev\\CottageApp-master\\DataObjects\\DataObjects.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

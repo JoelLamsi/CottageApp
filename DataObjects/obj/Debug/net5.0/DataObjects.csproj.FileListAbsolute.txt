@@ -10,3 +10,15 @@ E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.csproj.CoreCompile
 E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.dll
 E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\ref\DataObjects.dll
 E:\GitHub\CottageApp\DataObjects\obj\Debug\net5.0\DataObjects.pdb
+C:\Users\joell\dev\CottageApp-master\DataObjects\bin\Debug\net5.0\DataObjects.deps.json
+C:\Users\joell\dev\CottageApp-master\DataObjects\bin\Debug\net5.0\DataObjects.dll
+C:\Users\joell\dev\CottageApp-master\DataObjects\bin\Debug\net5.0\ref\DataObjects.dll
+C:\Users\joell\dev\CottageApp-master\DataObjects\bin\Debug\net5.0\DataObjects.pdb
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\DataObjects.csproj.AssemblyReference.cache
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\DataObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\DataObjects.AssemblyInfoInputs.cache
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\DataObjects.AssemblyInfo.cs
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\DataObjects.csproj.CoreCompileInputs.cache
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\DataObjects.dll
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\ref\DataObjects.dll
+C:\Users\joell\dev\CottageApp-master\DataObjects\obj\Debug\net5.0\DataObjects.pdb

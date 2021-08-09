@@ -16,11 +16,44 @@
                 }
             }
             
-            @* <button class="btn btn-primary" @onclick="@(() => ReservationState.ShowReservationDialog(cottage))">Make a Reservation</button> *@
         </MatBody1>
-    </MatCardContent>  
+    </MatCardContent>
+    <MatCardActions>
+        <MatButton OnClick="@(() => MakeReservation())">Make a Reservation</MatButton>
+    </MatCardActions>
 </MatCard>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen" CanBeClosed="true">
+    <MatDialogContent>
+        <MatHeadline5 class="mat-card-clean-margin">@cottage.Title</MatHeadline5>
+        <label>Check-In</label>
+        <MatDatePicker @bind-Value="@checkInDate"></MatDatePicker><br/>
+        <label>Check-Out</label>
+        <MatDatePicker @bind-Value="@checkOutDate"></MatDatePicker><br/>
+        
+        <MatButton OnClick="@(() => dialogIsOpen = false)">Cancel</MatButton>
+    </MatDialogContent>
+</MatDialog>
 
 @code {
     [Parameter] public Cottage cottage { get; set; }
+    public Reservation Reservation { get; set; }
+    bool dialogIsOpen = false;
+
+    DateTime checkInDate = DateTime.Now;
+    DateTime checkOutDate = DateTime.Now;
+
+    decimal totalPrice = 0.00m;
+    
+    void MakeReservation()
+    {
+        dialogIsOpen = true;
+        Reservation = new Reservation();
+        Reservation.CheckInDate = DateTime.Now;
+        ReservationState rs = new ReservationState();
+        rs.Cottage = cottage;
+        TimeSpan interval = checkOutDate - checkInDate;
+        Reservation.TotalPrice = interval.Days * cottage.CostPerDay;
+        totalPrice = Reservation.TotalPrice;
+    }
 }
