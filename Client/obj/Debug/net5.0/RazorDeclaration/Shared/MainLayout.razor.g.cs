@@ -13,70 +13,70 @@ namespace Client.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 1 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 2 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 3 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 4 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 5 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 6 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 7 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 8 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 9 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "e:\GitHub\CottageApp\Client\_Imports.razor"
+#line 10 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor"
 using Client.Shared;
 
 #line default
@@ -85,7 +85,7 @@ using Client.Shared;
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
-        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
+        protected override void BuildRenderTree(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998

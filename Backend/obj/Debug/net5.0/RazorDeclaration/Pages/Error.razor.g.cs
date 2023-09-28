@@ -13,87 +13,87 @@ namespace Backend.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 1 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 2 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 3 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 4 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 5 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 6 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 7 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 8 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Backend;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 9 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Backend.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 10 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using Backend.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\joell\dev\CottageApp-master\Backend\_Imports.razor"
+#line 11 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor"
 using MatBlazor;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/error")]
-    public partial class Error : Microsoft.AspNetCore.Components.ComponentBase
+    [global::Microsoft.AspNetCore.Components.RouteAttribute("/error")]
+    public partial class Error : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
-        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
+        protected override void BuildRenderTree(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
