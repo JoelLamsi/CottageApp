@@ -1,0 +1,12 @@
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/bin/Debug/net7.0/DataObjects.deps.json
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/bin/Debug/net7.0/DataObjects.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/bin/Debug/net7.0/DataObjects.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/DataObjects.csproj.AssemblyReference.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/DataObjects.GeneratedMSBuildEditorConfig.editorconfig
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/DataObjects.AssemblyInfoInputs.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/DataObjects.AssemblyInfo.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/DataObjects.csproj.CoreCompileInputs.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/DataObjects.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/refint/DataObjects.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/DataObjects.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/Debug/net7.0/ref/DataObjects.dll

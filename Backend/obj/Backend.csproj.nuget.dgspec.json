@@ -17,20 +17,17 @@
           "/home/joel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
               "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj": {
                 "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj"
-              },
-              "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/SharedComponents/SharedComponents.csproj": {
-                "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/SharedComponents/SharedComponents.csproj"
               }
             }
           }
@@ -42,8 +39,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "BlazorInputFile": {
               "target": "Package",
@@ -73,20 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -112,14 +95,14 @@
           "/home/joel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -130,8 +113,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -143,89 +126,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/home/joel/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/SharedComponents/SharedComponents.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/SharedComponents/SharedComponents.csproj",
-        "projectName": "SharedComponents",
-        "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/SharedComponents/SharedComponents.csproj",
-        "packagesPath": "/home/joel/.nuget/packages/",
-        "outputPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/SharedComponents/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/joel/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj": {
-                "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "MatBlazor": {
-              "target": "Package",
-              "version": "[2.8.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

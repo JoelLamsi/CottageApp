@@ -97,7 +97,7 @@ using MatBlazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Shared/CottageListItem.razor"
+#line 39 "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Shared/CottageListItem.razor"
        
     [Parameter] public Cottage cottage { get; set; }
     public Reservation Reservation { get; set; }

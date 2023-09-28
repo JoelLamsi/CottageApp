@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3zxg64mnVGU/p4E3UHudUtUUT1BPNsD6RUH1Q3DKFM380sCuKBOyPk7pMzt5sZK7jvlocjv3OJle6qfs3va39g==",
+  "dgSpecHash": "odH1vntIo5k02iVgVUDjjOvJVCNAIVEvzxKjO+6dm3aTkPKwXid9N9d7AHOmzLglnpBxMu5tuFVUn+pF05FgSg==",
   "success": true,
   "projectFilePath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj",
-  "expectedPackageFiles": [
-    "/home/joel/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/home/joel/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

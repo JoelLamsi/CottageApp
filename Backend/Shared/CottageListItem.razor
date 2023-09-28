@@ -19,7 +19,7 @@
         </MatBody1>
     </MatCardContent>
     <MatCardActions>
-        <MatButton OnClick="@(() => MakeReservation())">Make a Reservation</MatButton>
+        <MatButton OnClick="@OpenReservationDialog">Make a Reservation</MatButton>
     </MatCardActions>
 </MatCard>
 
@@ -32,6 +32,7 @@
         <MatDatePicker @bind-Value="@checkOutDate"></MatDatePicker><br/>
         
         <MatButton OnClick="@(() => dialogIsOpen = false)">Cancel</MatButton>
+        <MatButton OnClick="@(() => dialogIsOpen = false)" Unelevated="true" style="margin-left: 200px;">Ok</MatButton>
     </MatDialogContent>
 </MatDialog>
 
@@ -45,7 +46,7 @@
 
     decimal totalPrice = 0.00m;
     
-    void MakeReservation()
+    void OpenReservationDialog()
     {
         dialogIsOpen = true;
         Reservation = new Reservation();

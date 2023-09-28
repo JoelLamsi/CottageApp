@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1WEAW4pJ02bo2VzwhjmON+sRQMb3T3fj1F5zVIhk0Z1BKvL7mkbdj3RjCW6Gz5CNzYe+cTOzCQEDowLoUrmZpA==",
+  "dgSpecHash": "RKnS+Ec33jdPWS2ar7pIhI6w/8ILHtv1u5hEt9rfJlqPDuni7DQR3e2Gy3YK+MpR8ZPij2dH6uKpoikXTFixIA==",
   "success": true,
   "projectFilePath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Backend.csproj",
   "expectedPackageFiles": [
@@ -34,10 +34,7 @@
     "/home/joel/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
     "/home/joel/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/home/joel/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "/home/joel/.nuget/packages/system.drawing.common/5.0.0-rc.1.20451.14/system.drawing.common.5.0.0-rc.1.20451.14.nupkg.sha512",
-    "/home/joel/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/home/joel/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/home/joel/.nuget/packages/microsoft.netcore.app.host.linux-x64/5.0.17/microsoft.netcore.app.host.linux-x64.5.0.17.nupkg.sha512"
+    "/home/joel/.nuget/packages/system.drawing.common/5.0.0-rc.1.20451.14/system.drawing.common.5.0.0-rc.1.20451.14.nupkg.sha512"
   ],
   "logs": []
 }
