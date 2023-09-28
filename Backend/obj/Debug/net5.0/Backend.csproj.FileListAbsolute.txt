@@ -1,134 +1,206 @@
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\appsettings.Development.json
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\appsettings.json
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\cottages.json
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.StaticWebAssets.xml
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.exe
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.deps.json
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.runtimeconfig.json
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.runtimeconfig.dev.json
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\ref\Backend.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.pdb
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.Views.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Backend.Views.pdb
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\BlazorInputFile.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\MatBlazor.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\DataObjects.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\SharedComponents.dll
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\DataObjects.pdb
-E:\GitHub\CottageApp\Backend\bin\Debug\net5.0\SharedComponents.pdb
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.csprojAssemblyReference.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.MvcApplicationPartsAssemblyInfo.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.RazorComponent.input.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Pages\Error.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Pages\PostCottage.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\CottageListItem.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.RazorComponent.output.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\RazorDeclaration\Backend.dll
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.TagHelpers.input.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.TagHelpers.output.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.RazorCoreGenerate.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\App.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Pages\Error.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Pages\PostCottage.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Shared\CottageListItem.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.RazorAssemblyInfo.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.RazorAssemblyInfo.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\staticwebassets\Backend.StaticWebAssets.Manifest.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\staticwebassets\Backend.StaticWebAssets.xml
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\scopedcss\bundle\Backend.styles.css
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.RazorTargetAssemblyInfo.cache
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.RazorTargetAssemblyInfo.cs
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.Views.pdb
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.csproj.CopyComplete
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.dll
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\ref\Backend.dll
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.pdb
-E:\GitHub\CottageApp\Backend\obj\Debug\net5.0\Backend.genruntimeconfig.cache
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\appsettings.json
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\cottages.json
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.StaticWebAssets.xml
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.exe
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.deps.json
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.runtimeconfig.json
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.runtimeconfig.dev.json
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\ref\Backend.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.pdb
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.Views.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Backend.Views.pdb
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\BlazorInputFile.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\MatBlazor.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\DataObjects.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\SharedComponents.dll
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\DataObjects.pdb
-C:\Users\joell\dev\CottageApp-master\Backend\bin\Debug\net5.0\SharedComponents.pdb
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.csproj.AssemblyReference.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.RazorComponent.input.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Pages\Error.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Pages\PostCottage.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\CottageListItem.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.RazorComponent.output.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\RazorDeclaration\Backend.dll
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.TagHelpers.input.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.TagHelpers.output.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.RazorCoreGenerate.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Pages\Error.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Pages\PostCottage.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Shared\CottageListItem.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.RazorAssemblyInfo.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.RazorAssemblyInfo.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\staticwebassets\Backend.StaticWebAssets.Manifest.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\staticwebassets\Backend.StaticWebAssets.xml
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\scopedcss\bundle\Backend.styles.css
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.RazorTargetAssemblyInfo.cache
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.RazorTargetAssemblyInfo.cs
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.Views.pdb
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.csproj.CopyComplete
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.dll
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\ref\Backend.dll
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.pdb
-C:\Users\joell\dev\CottageApp-master\Backend\obj\Debug\net5.0\Backend.genruntimeconfig.cache
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/appsettings.Development.json
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/appsettings.json
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/cottages.json
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.StaticWebAssets.xml
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.exe
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.deps.json
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.runtimeconfig.json
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.runtimeconfig.dev.json
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/ref/Backend.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.pdb
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.Views.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Backend.Views.pdb
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/BlazorInputFile.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/MatBlazor.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Microsoft.Bcl.HashCode.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/DataObjects.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/SharedComponents.dll
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/DataObjects.pdb
+E:/GitHub/CottageApp/Backend/bin/Debug/net5.0/SharedComponents.pdb
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.csprojAssemblyReference.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.GeneratedMSBuildEditorConfig.editorconfig
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.AssemblyInfoInputs.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.AssemblyInfo.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.csproj.CoreCompileInputs.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.MvcApplicationPartsAssemblyInfo.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorComponent.input.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/Error.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/PostCottage.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/CottageListItem.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorComponent.output.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Backend.dll
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.TagHelpers.input.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.TagHelpers.output.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorCoreGenerate.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/App.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/Error.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/PostCottage.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/CottageListItem.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorAssemblyInfo.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorAssemblyInfo.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/Backend.StaticWebAssets.Manifest.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/Backend.StaticWebAssets.xml
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/scopedcss/bundle/Backend.styles.css
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorTargetAssemblyInfo.cache
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorTargetAssemblyInfo.cs
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.Views.pdb
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.csproj.CopyComplete
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.dll
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/ref/Backend.dll
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.pdb
+E:/GitHub/CottageApp/Backend/obj/Debug/net5.0/Backend.genruntimeconfig.cache
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/appsettings.json
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/cottages.json
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.StaticWebAssets.xml
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.exe
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.deps.json
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.runtimeconfig.json
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.runtimeconfig.dev.json
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/ref/Backend.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.pdb
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.Views.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Backend.Views.pdb
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/BlazorInputFile.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/MatBlazor.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Microsoft.Bcl.HashCode.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/DataObjects.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/SharedComponents.dll
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/DataObjects.pdb
+C:/Users/joell/dev/CottageApp-master/Backend/bin/Debug/net5.0/SharedComponents.pdb
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.csproj.AssemblyReference.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.AssemblyInfoInputs.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.AssemblyInfo.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.csproj.CoreCompileInputs.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.RazorComponent.input.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/Error.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/PostCottage.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/CottageListItem.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.RazorComponent.output.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/RazorDeclaration/Backend.dll
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.TagHelpers.input.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.TagHelpers.output.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.RazorCoreGenerate.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/App.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Pages/Error.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Pages/PostCottage.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Shared/CottageListItem.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.RazorAssemblyInfo.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.RazorAssemblyInfo.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/staticwebassets/Backend.StaticWebAssets.Manifest.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/staticwebassets/Backend.StaticWebAssets.xml
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/scopedcss/bundle/Backend.styles.css
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.RazorTargetAssemblyInfo.cache
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.RazorTargetAssemblyInfo.cs
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.Views.pdb
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.csproj.CopyComplete
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.dll
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/ref/Backend.dll
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.pdb
+C:/Users/joell/dev/CottageApp-master/Backend/obj/Debug/net5.0/Backend.genruntimeconfig.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/appsettings.Development.json
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/appsettings.json
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/cottages.json
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.StaticWebAssets.xml
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.deps.json
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.runtimeconfig.json
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.runtimeconfig.dev.json
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.Views.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Backend.Views.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/BlazorInputFile.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/MatBlazor.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Microsoft.Bcl.HashCode.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/DataObjects.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/SharedComponents.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/DataObjects.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/bin/Debug/net5.0/SharedComponents.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.csproj.AssemblyReference.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.GeneratedMSBuildEditorConfig.editorconfig
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.AssemblyInfoInputs.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.AssemblyInfo.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.csproj.CoreCompileInputs.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.MvcApplicationPartsAssemblyInfo.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorComponent.input.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/Error.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Pages/PostCottage.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/CottageListItem.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorComponent.output.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/RazorDeclaration/Backend.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.TagHelpers.input.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.TagHelpers.output.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorCoreGenerate.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/App.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/Error.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/PostCottage.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/CottageListItem.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorAssemblyInfo.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorAssemblyInfo.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/scopedcss/bundle/Backend.styles.css
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/Backend.StaticWebAssets.Manifest.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/Backend.StaticWebAssets.Pack.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/msbuild.build.Backend.props
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/msbuild.buildMultiTargeting.Backend.props
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/msbuild.buildTransitive.Backend.props
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/staticwebassets/Backend.StaticWebAssets.xml
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorTargetAssemblyInfo.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.RazorTargetAssemblyInfo.cs
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.Views.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.csproj.CopyComplete
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/refint/Backend.dll
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.pdb
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/Backend.genruntimeconfig.cache
+/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net5.0/ref/Backend.dll

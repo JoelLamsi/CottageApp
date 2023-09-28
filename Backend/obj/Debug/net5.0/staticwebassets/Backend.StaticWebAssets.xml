@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="_content/BlazorInputFile" Path="C:\Users\joell\.nuget\packages\blazorinputfile\0.2.0\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/MatBlazor" Path="C:\Users\joell\.nuget\packages\matblazor\2.8.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/BlazorInputFile" Path="/home/joel/.nuget/packages/blazorinputfile/0.2.0/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/MatBlazor" Path="/home/joel/.nuget/packages/matblazor/2.8.0/build/../staticwebassets/" />
 </StaticWebAssets>
