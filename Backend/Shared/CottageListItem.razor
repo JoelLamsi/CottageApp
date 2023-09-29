@@ -25,14 +25,26 @@
 
 <MatDialog @bind-IsOpen="@dialogIsOpen" CanBeClosed="true">
     <MatDialogContent>
-        <MatHeadline5 class="mat-card-clean-margin">@cottage.Title</MatHeadline5>
-        <label>Check-In</label>
-        <MatDatePicker @bind-Value="@checkInDate"></MatDatePicker><br/>
-        <label>Check-Out</label>
-        <MatDatePicker @bind-Value="@checkOutDate"></MatDatePicker><br/>
-        
-        <MatButton OnClick="@(() => dialogIsOpen = false)">Cancel</MatButton>
-        <MatButton id="okButton" OnClick="@SaveReservation" Unelevated="true">Ok</MatButton>
+        <EditForm Model="reservationModel" OnValidSubmit="SaveReservation">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            
+            <MatHeadline5 class="mat-card-clean-margin">@cottage.Title</MatHeadline5>
+            
+            <MatDatePicker Label="Check-In" @bind-Value="reservationModel.CheckInDate" /><br/>
+            <MatDatePicker Label="Check-Out" @bind-Value="reservationModel.CheckOutDate" /><br/>
+
+            <MatDivider />
+
+            <MatTextField Label="First name" @bind-Value="reservationModel.FirstName" />
+            <MatTextField Label="Last name" @bind-Value="reservationModel.LastName" /><br />
+
+            <MatTextField Label="Phone nr" @bind-Value="reservationModel.PhoneNumber" />
+            <MatTextField Label="Email" @bind-Value="reservationModel.Email" /><br />
+
+            <MatButton OnClick="@(() => dialogIsOpen = false)">Cancel</MatButton>
+            <MatButton id="okButton" Unelevated="true" Type="submit">Ok</MatButton>
+        </EditForm>
     </MatDialogContent>
 </MatDialog>
 
@@ -40,19 +52,18 @@
     [Parameter] public Cottage cottage { get; set; }
     public Reservation Reservation { get; set; }
     bool dialogIsOpen = false;
-
     DateTime checkInDate = DateTime.Now;
     DateTime checkOutDate = DateTime.Now;
 
+    ReservationModel reservationModel = new ReservationModel();
+
     decimal totalPrice = 0.00m;
-    
+
     void OpenReservationDialog()
     {
         dialogIsOpen = true;
         Reservation = new Reservation();
         Reservation.CheckInDate = DateTime.Now;
-        ReservationState rs = new ReservationState();
-        rs.Cottage = cottage;
         TimeSpan interval = checkOutDate - checkInDate;
         Reservation.TotalPrice = interval.Days * cottage.CostPerDay;
         totalPrice = Reservation.TotalPrice;
@@ -61,5 +72,23 @@
     void SaveReservation()
     {
         Console.WriteLine("Yes, this works like trains' toilet");
+    }
+
+    public class ReservationModel 
+    {
+        [System.ComponentModel.DataAnnotations.Required]
+        public DateTime CheckInDate { get; set; }
+        [System.ComponentModel.DataAnnotations.Required]
+        public DateTime CheckOutDate { get; set; }
+        [System.ComponentModel.DataAnnotations.Required]
+        [System.ComponentModel.DataAnnotations.StringLength(200)]
+        public string FirstName { get; set; }
+        [System.ComponentModel.DataAnnotations.Required]
+        [System.ComponentModel.DataAnnotations.StringLength(200)]
+        public string LastName { get; set; }
+        [System.ComponentModel.DataAnnotations.StringLength(200)]
+        public string Email { get; set; }
+        [System.ComponentModel.DataAnnotations.MaxLength(15)]
+        public string PhoneNumber { get; set; }
     }
 }

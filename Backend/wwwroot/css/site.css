@@ -47,7 +47,7 @@ app {
     text-overflow: ellipsis;
 }
 
-#okButton { margin-left: 220px; }
+#okButton { margin-left: 260px; }
 
 .sidebar {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);

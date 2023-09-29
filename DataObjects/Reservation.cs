@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Backend.Data
 {
@@ -6,7 +7,9 @@ namespace Backend.Data
     {
         public Cottage Cottage { get; set; }
         public decimal TotalPrice { get; set; } = 0.00m;
-        public DateTime CheckInDate { get; set; } = new DateTime();
+        [Required]
+        public DateTime CheckInDate { get; set; }
+        [Required]
         public DateTime CheckOutDate { get; set; }
     }
 }
