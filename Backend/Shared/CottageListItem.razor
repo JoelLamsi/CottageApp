@@ -32,7 +32,7 @@
         <MatDatePicker @bind-Value="@checkOutDate"></MatDatePicker><br/>
         
         <MatButton OnClick="@(() => dialogIsOpen = false)">Cancel</MatButton>
-        <MatButton OnClick="@(() => dialogIsOpen = false)" Unelevated="true" style="margin-left: 200px;">Ok</MatButton>
+        <MatButton id="okButton" OnClick="@SaveReservation" Unelevated="true">Ok</MatButton>
     </MatDialogContent>
 </MatDialog>
 
@@ -56,5 +56,10 @@
         TimeSpan interval = checkOutDate - checkInDate;
         Reservation.TotalPrice = interval.Days * cottage.CostPerDay;
         totalPrice = Reservation.TotalPrice;
+    }
+
+    void SaveReservation()
+    {
+        Console.WriteLine("Yes, this works like trains' toilet");
     }
 }
