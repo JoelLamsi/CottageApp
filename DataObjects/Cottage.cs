@@ -39,5 +39,7 @@ namespace Backend.Data
             }
             return sum / count;
         }
+
+        public List<Reservation> Reservations { get; set; }
     }
 }

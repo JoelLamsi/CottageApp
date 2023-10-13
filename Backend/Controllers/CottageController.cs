@@ -23,12 +23,7 @@ namespace Backend.Controllers
         [Route("all")]
         public IEnumerable<Cottage> GetCottages()
         {
-            var cottages = new List<Cottage>()
-            {
-                
-            };
-
-            //_context.Cottages.ToList();
+            var cottages = _context.Cottages.ToList();
 
             return cottages;
         }

@@ -1,0 +1,25 @@
+﻿@page "/"
+@using System.Net.Http
+@using Backend.Data
+@inject HttpClient Http
+
+<h1>Hello, world!</h1>
+
+@if (cottages.Any())
+{
+    <ul>
+        @foreach (var c in cottages)
+        {
+            <li>@c.Title</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Cottage> cottages;
+
+        protected override async Task OnInitializedAsync()
+        {
+            cottages = await Http.GetFromJsonAsync<List<Cottage>>("api/Cottage/all");
+        }
+}

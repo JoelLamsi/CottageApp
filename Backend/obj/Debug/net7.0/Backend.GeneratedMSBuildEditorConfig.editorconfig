@@ -32,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdENvdHRhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Shared/CottageListItem.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvdHRhZ2VMaXN0SXRlbS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -51,6 +47,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Shared/CottageListItem.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvdHRhZ2VMaXN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-abs7ulh5n9
 
 [/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
