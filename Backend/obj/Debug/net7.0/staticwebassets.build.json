@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lbHvyaQkfh0TA6yddDiFWMCXaUN/4KwP/y7kb2EzcGU=",
+  "Hash": "4HA9pRu3i2LqSQ0CQQrfVrO3wroEIFMgKnAXBSEdqlA=",
   "Source": "Backend",
   "BasePath": "_content/Backend",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/joel/.nuget/packages/matblazor/2.8.0/staticwebassets/dist/matBlazor.js"
+    },
+    {
+      "Identity": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net7.0/scopedcss/bundle/Backend.styles.css",
+      "SourceId": "Backend",
+      "SourceType": "Computed",
+      "ContentRoot": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Backend.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net7.0/scopedcss/bundle/Backend.styles.css"
+    },
+    {
+      "Identity": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net7.0/scopedcss/projectbundle/Backend.bundle.scp.css",
+      "SourceId": "Backend",
+      "SourceType": "Computed",
+      "ContentRoot": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Backend.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net7.0/scopedcss/projectbundle/Backend.bundle.scp.css"
     },
     {
       "Identity": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/wwwroot/css/bootstrap/bootstrap.min.css",

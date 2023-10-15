@@ -1,3 +1,5 @@
+@using Backend.Models
+
 <MatCard class="mat-card" style="max-width: 500px; margin-bottom: 10px;">
     <div class="mat-card-content" style="margin-left: 20px; margin-top: 20px;">
         <MatHeadline5 class="mat-card-clean-margin">@cottage.Title</MatHeadline5>
@@ -72,23 +74,5 @@
     void SaveReservation()
     {
         Console.WriteLine("Yes, this works like trains' toilet");
-    }
-
-    public class ReservationModel 
-    {
-        [System.ComponentModel.DataAnnotations.Required]
-        public DateTime CheckInDate { get; set; }
-        [System.ComponentModel.DataAnnotations.Required]
-        public DateTime CheckOutDate { get; set; }
-        [System.ComponentModel.DataAnnotations.Required]
-        [System.ComponentModel.DataAnnotations.StringLength(200)]
-        public string FirstName { get; set; }
-        [System.ComponentModel.DataAnnotations.Required]
-        [System.ComponentModel.DataAnnotations.StringLength(200)]
-        public string LastName { get; set; }
-        [System.ComponentModel.DataAnnotations.StringLength(200)]
-        public string Email { get; set; }
-        [System.ComponentModel.DataAnnotations.MaxLength(15)]
-        public string PhoneNumber { get; set; }
     }
 }

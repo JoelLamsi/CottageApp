@@ -1,7 +1,10 @@
 @page "/postcottage"
 @using System.IO
-@using System.Text.Json;
-@using System.Text.Json.Serialization;
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using Microsoft.EntityFrameworkCore
+@using Backend.Data
+@inject IDbContextFactory<ApplicationDbContext> ApplicationDataContextFactory
 
 <style>
     div {
@@ -9,28 +12,24 @@
     }
 </style>
 
-<EditForm Model="@cottage" OnValidSubmit="@Save">
+<EditForm Model="@NewCottage" OnValidSubmit="@CreateNewCottage">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <div class="col-12 row">
-        <label class="col-2 font-weight-bold">Title</label>
-        <InputText class="form-control col-6" @bind-Value="@cottage.Title" />
+        <MatTextField Label="Title" class="form-control col-6" @bind-Value="@NewCottage.Title" />
     </div>
     <div class="col-12 row">
-        <label class="col-2 font-weight-bold">Description</label>
-        <InputTextArea class="form-control col-6" @bind-Value="@cottage.Description" />
+        <MatTextField Label="Description" aria-multiline="true" class="form-control col-6" @bind-Value="@NewCottage.Description" />
     </div>
     <div class="col-12 row">
-        <label class="col-2 font-weight-bold">Cost per Day</label>
-        <InputNumber class="form-control col-6" @bind-Value="@cottage.CostPerDay" />
+        <MatTextField Label="Cost per Day" TValue="decimal" class="form-control col-6" @bind-Value="@NewCottage.CostPerDay" />
     </div>
     <div class="col-12 row">
-        <label class="col-2 font-weight-bold"># of Rooms</label>
-        <InputNumber class="form-control col-6" @bind-Value="@cottage.Rooms" />
+        <MatTextField Label="# of Rooms" class="form-control col-6" @bind-Value="@NewCottage.Rooms" />
     </div>
     <div class="col-12 row">
-        <MatCheckbox Label="Is Sauna" @bind-Value="@(cottage.IsSauna)" />
-        <MatCheckbox Label="Is Electricity" @bind-Value="@(cottage.IsElectricity)"  />
+        <MatCheckbox Label="Is Sauna" @bind-Value="@(NewCottage.IsSauna)" />
+        <MatCheckbox Label="Is Electricity" @bind-Value="@(NewCottage.IsElectricity)"  />
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Image</label>
@@ -67,11 +66,12 @@
 </EditForm>
 
 @code {
-    private Cottage cottage { get; set; }
+    public Cottage NewCottage { get; set; }
     //private Person owner { get; set; }
     string fileContent;
+    private ApplicationDbContext? _context;
 
-    protected override void OnInitialized()
+    @* protected override void OnInitialized()
     {
         cottage = new Cottage();
         //owner = new Person();
@@ -79,16 +79,22 @@
         
         //owner.HomeAddress = new Address();
         base.OnInitialized();
+    } *@
+
+    protected override async Task OnInitializedAsync()
+    {
+        NewCottage = new Cottage();
     }
 
-    private async Task Save()
+    private async Task CreateNewCottage()
     {
-        cottage.DateAdded = DateTime.Now;
-        
-        using (var fs = new FileStream("wwwroot/data/cottages.json", FileMode.Create))
+        NewCottage.DateAdded = DateTime.Now;
+        _context ??= await ApplicationDataContextFactory.CreateDbContextAsync();
+
+        if (NewCottage is not null)
         {
-            await JsonSerializer.SerializeAsync(fs, cottage);
-            Console.WriteLine("Saved to: " + fs.Name);
+            _context?.Cottages.Add(NewCottage);
+            _context?.SaveChangesAsync();
         }
     }
 
@@ -109,10 +115,10 @@
                 var imgName = file.Name;
                 if (!String.IsNullOrEmpty(imgName))
                 {
-                    cottage.PictureUrl = $"/Pictures/{imgName}";
+                    NewCottage.PictureUrl = $"/Pictures/{imgName}";
                 }
 
-                cottage.PictureUrl = $"/Pictures/{file.Name}";
+                NewCottage.PictureUrl = $"/Pictures/{file.Name}";
 
                 using (var ms = new MemoryStream())
                 {

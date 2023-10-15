@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Backend.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend
 {
@@ -28,6 +29,8 @@ namespace Backend
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddHttpClient();
+            services.AddDbContextFactory<ApplicationDbContext>(options => options.UseSqlite("Data Source=Data/cottage-app.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

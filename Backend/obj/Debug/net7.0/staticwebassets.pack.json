@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/Debug/net7.0/scopedcss/projectbundle/Backend.bundle.scp.css",
+      "PackagePath": "staticwebassets/Backend.bundle.scp.css"
+    },
+    {
       "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/wwwroot/css/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
