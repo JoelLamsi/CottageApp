@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Backend.Models;
 public class ReservationModel 
     {
-        [Required, Future(ErrorMessage = "Check In date has to be greater than or equal to today's date")]
+        [Required, Future(ErrorMessage = "Check In date has to be greater than or equal to today's date"), LessThan(nameof(CheckOutDate))]
         public DateTime CheckInDate { get; set; }
         [Required, Future(ErrorMessage = "Check Out date has to be greater than or equal to today's date"), GreaterThan(nameof(CheckInDate))]
         public DateTime CheckOutDate { get; set; }
@@ -51,7 +51,39 @@ public class GreaterThanAttribute : ValidationAttribute
         {
             if (dateTime <= comparisonDateTime)
             {
-                return new ValidationResult($"{validationContext.DisplayName} must be greater than {_comparisonProperty}");
+                return new ValidationResult($"{validationContext.DisplayName} must be later {_comparisonProperty}");
+            }
+        }
+
+        return ValidationResult.Success;
+    }
+}
+
+public class LessThanAttribute : ValidationAttribute
+{
+    private readonly string _comparisonProperty;
+
+    public LessThanAttribute(string comparisonProperty)
+    {
+        _comparisonProperty = comparisonProperty;
+    }
+
+    protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+    {
+        var property = validationContext.ObjectType.GetProperty(_comparisonProperty);
+
+        if (property is null)
+        {
+            return new ValidationResult($"Unknown property: {_comparisonProperty}");
+        }
+
+        var comparisonValue = property.GetValue(validationContext.ObjectInstance);
+
+        if (value is DateTime dateTime && comparisonValue is DateTime comparisonDateTime)
+        {
+            if (dateTime >= comparisonDateTime)
+            {
+                return new ValidationResult($"{validationContext.DisplayName} must be before {_comparisonProperty}");
             }
         }
 
