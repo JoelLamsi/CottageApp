@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "odH1vntIo5k02iVgVUDjjOvJVCNAIVEvzxKjO+6dm3aTkPKwXid9N9d7AHOmzLglnpBxMu5tuFVUn+pF05FgSg==",
+  "dgSpecHash": "TjK+o/v1GhgiR3RkMB+yofYHKXAt0o7SrPAj6clN+ZG81Z0sTDZBVyN04e/kUMuAM1Ge7LFp+4wVhfzVCJ4I7g==",
   "success": true,
-  "projectFilePath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj",
+  "projectFilePath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

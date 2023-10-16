@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Backend.csproj": {}
+    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Backend.csproj": {}
   },
   "projects": {
-    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Backend.csproj": {
+    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Backend.csproj",
+        "projectUniqueName": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/Backend.csproj",
+        "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Backend.csproj",
         "packagesPath": "/home/joel/.nuget/packages/",
-        "outputPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Backend/obj/",
+        "outputPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joel/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj": {
-                "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj"
+              "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj": {
+                "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj": {
+    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj",
+        "projectUniqueName": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj",
         "projectName": "DataObjects",
-        "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/DataObjects.csproj",
+        "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj",
         "packagesPath": "/home/joel/.nuget/packages/",
-        "outputPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/DataObjects/obj/",
+        "outputPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joel/.nuget/NuGet/NuGet.Config"

@@ -9,25 +9,25 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Client
 build_property.RootNamespace = Client
-build_property.ProjectDir = /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/
+build_property.ProjectDir = /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client
+build_property.MSBuildProjectDirectory = /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client
 build_property._RazorSourceGeneratorDebug = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/App.razor]
+[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/MainLayout.razor]
+[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/Pages/Index.razor]
+[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/_Imports.razor]
+[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -4,6 +4,7 @@
 @using System.Text.Json.Serialization
 @using Microsoft.EntityFrameworkCore
 @using Backend.Data
+@using DataObjects
 @inject IDbContextFactory<ApplicationDbContext> ApplicationDataContextFactory
 
 <style>
@@ -66,7 +67,7 @@
 </EditForm>
 
 @code {
-    public Cottage NewCottage { get; set; }
+    public DataObjects.Cottage NewCottage { get; set; }
     //private Person owner { get; set; }
     string fileContent;
     private ApplicationDbContext? _context;
