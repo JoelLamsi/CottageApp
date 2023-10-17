@@ -3,9 +3,7 @@
 @using System.Text.Json
 @using System.Text.Json.Serialization
 @using Microsoft.EntityFrameworkCore
-@using Backend.Data
 @using DataObjects
-@inject IDbContextFactory<ApplicationDbContext> ApplicationDataContextFactory
 
 <style>
     div {
@@ -13,7 +11,8 @@
     }
 </style>
 
-<EditForm Model="@NewCottage" OnValidSubmit="@CreateNewCottage">
+@* <EditForm Model="@NewCottage" OnValidSubmit="@CreateNewCottage"> *@
+<EditForm Model="@NewCottage">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <div class="col-12 row">
@@ -70,7 +69,6 @@
     public DataObjects.Cottage NewCottage { get; set; }
     //private Person owner { get; set; }
     string fileContent;
-    private ApplicationDbContext? _context;
 
     @* protected override void OnInitialized()
     {
@@ -87,7 +85,7 @@
         NewCottage = new Cottage();
     }
 
-    private async Task CreateNewCottage()
+    @* private async Task CreateNewCottage()
     {
         NewCottage.DateAdded = DateTime.Now;
         _context ??= await ApplicationDataContextFactory.CreateDbContextAsync();
@@ -97,7 +95,7 @@
             _context?.Cottages.Add(NewCottage);
             _context?.SaveChangesAsync();
         }
-    }
+    } *@
 
     private void Invalid()
     {

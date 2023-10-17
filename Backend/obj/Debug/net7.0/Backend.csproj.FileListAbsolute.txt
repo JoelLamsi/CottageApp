@@ -89,7 +89,6 @@
 /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/obj/Debug/net7.0/Backend.pdb
 /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/bin/Debug/net7.0/appsettings.Development.json
 /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/bin/Debug/net7.0/appsettings.json
-/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/bin/Debug/net7.0/cottages.json
 /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/bin/Debug/net7.0/Backend.staticwebassets.runtime.json
 /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/bin/Debug/net7.0/Backend
 /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/bin/Debug/net7.0/Backend.deps.json

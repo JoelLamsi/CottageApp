@@ -57,7 +57,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp/CottageApp/Client/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

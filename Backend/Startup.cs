@@ -1,16 +1,10 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Backend.Data;
-using Microsoft.EntityFrameworkCore;
+using Backend.Services;
 
 namespace Backend
 {
@@ -29,8 +23,11 @@ namespace Backend
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddHttpClient();
-            services.AddDbContextFactory<ApplicationDbContext>(options => options.UseSqlite("Data Source=cottage-app.db"));
+            services.AddSingleton<CottageService>();
+            services.AddHttpClient<ICottageService, CottageService>(client =>
+            {
+                client.BaseAddress = new Uri("http://localhost:5260/");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

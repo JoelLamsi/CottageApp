@@ -16,8 +16,8 @@
 @code {
     private List<Cottage> cottages;
 
-        protected override async Task OnInitializedAsync()
-        {
-            cottages = await Http.GetFromJsonAsync<List<Cottage>>("api/Cottage/all");
-        }
+    protected override async Task OnInitializedAsync()
+    {
+        cottages = await Http.GetFromJsonAsync<List<Cottage>>("http://localhost:5260/api/cottage/all");
+    }
 }
