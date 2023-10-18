@@ -20,40 +20,60 @@ public class CottageController : ControllerBase
     {
         var cottages = _context.Cottages.ToList();
 
+        if (cottages is null || cottages.Count == 0)
+        {
+            return NoContent();
+        }
+
         return Ok(cottages);
     }
 
-    // [HttpGet("{id:int}")]
-    // public async Task<IActionResult> GetCottageAsync(int id)
-    // {
-    //     var cottage = await _context.Cottages.FindAsync(id);
-    //     return Ok(cottage);
-    // }
+    [HttpGet("{id:int}")]
+    public async Task<IActionResult> GetCottageAsync(int id)
+    {
+        var cottage = await _context.Cottages.FindAsync(id);
+        return Ok(cottage);
+    }
 
-    // [HttpPut]
-    // public async Task<IActionResult> UpdateCottageAsync(int id, Cottage cottage)
-    // {
-    //     var c = _context.Cottages.Find(id);
-    //     if (c == null)
-    //     {
-    //         return BadRequest();
-    //     }
+    [HttpPut]
+    public async Task<IActionResult> UpdateCottageAsync(int id, Cottage cottage)
+    {
+        var c = _context.Cottages.Find(id);
+        if (c == null)
+        {
+            return BadRequest();
+        }
 
-    //     _context.Cottages.Update(cottage);
-    //     return Ok();
-    // }
+        _context.Cottages.Update(cottage);
+        await _context.SaveChangesAsync();
+        return Ok();
+    }
 
-    // [HttpPost]
-    // public async Task CreateCottageAsync(Cottage input)
-    // {
-    //     var cottage = new Cottage
-    //     {
-    //         Title = input.Title,
-    //         Description = input.Description,
-    //         CostPerDay = input.CostPerDay
-    //     };
+    [HttpPost]
+    public async Task CreateCottageAsync(Cottage input)
+    {
+        var cottage = new Cottage
+        {
+            Title = input.Title,
+            Description = input.Description,
+            CostPerDay = input.CostPerDay
+        };
 
-    //     await _context.Cottages.AddAsync(cottage);
-    //     await _context.SaveChangesAsync();
-    // }
+        await _context.Cottages.AddAsync(cottage);
+        await _context.SaveChangesAsync();
+    }
+
+    [HttpDelete("{id:int}")]
+    public async Task<IActionResult> DeleteCottageAsync(int id)
+    {
+        var cottage = await _context.Cottages.FindAsync(id);
+        if (cottage is null)
+        {
+            return NotFound(id);
+        }
+        
+        _context.Cottages.Remove(cottage);
+        await _context.SaveChangesAsync();
+        return Ok(cottage);
+    }
 }
