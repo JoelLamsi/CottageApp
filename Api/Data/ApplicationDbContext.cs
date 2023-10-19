@@ -23,7 +23,7 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Cottage>().ToTable("Cottage")
+        modelBuilder.Entity<Cottage>().ToTable("Cottages")
             .HasData(new Cottage
             {
                 Id = 1,
