@@ -1,0 +1,29 @@
+@page "/cottages"
+@inject HttpClient Http
+<PageTitle>Cottages</PageTitle>
+
+@if (cottages.Count == 0)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var cottage in cottages)
+    {
+        <CottageListItem Cottage="@cottage"/>
+    }
+}
+
+@code {
+    List<Cottage> cottages = new List<Cottage>();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Http.GetFromJsonAsync<List<Cottage>>("api/cottage/all");
+
+        if (result != null)
+        {
+            cottages = result;
+        }
+    }
+}

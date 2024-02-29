@@ -1,4 +1,4 @@
-using DataObjects;
+using SharedLibrary.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Api.Data;
@@ -32,17 +32,18 @@ public class ApplicationDbContext : DbContext
                 CostPerDay = 50.00m,
                 PictureUrl = "img/cottage1.jpeg",
                 DateAdded = DateTime.Now,
-                Ratings = new int[] {1,2, 4, 1, 3}
+                Ratings = [1,2, 4, 1, 3]
             });
         modelBuilder.Entity<Cottage>()
             .HasData(new Cottage
             {
                 Id = 2,
                 Title = "Bar",
+                Description = $"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 CostPerDay = 250.00m,
                 PictureUrl = "img/cottage2.jpeg",
                 DateAdded = DateTime.Now,
-                Ratings = new int[] {5}
+                Ratings = [5,2,3]
             });
     }
 }

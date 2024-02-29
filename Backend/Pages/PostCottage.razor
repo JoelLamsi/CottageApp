@@ -1,8 +1,5 @@
 @page "/postcottage"
-@using System.IO
-@using System.Text.Json
-@using System.Text.Json.Serialization
-@using DataObjects
+@inject ICottageService cottageService
 
 <style>
     div {
@@ -10,25 +7,26 @@
     }
 </style>
 
-@* <EditForm Model="@NewCottage" OnValidSubmit="@CreateNewCottage"> *@
-<EditForm Model="@NewCottage">
+<MatProgressBar id="progressBar" Indeterminate="@(isBusy)" Closed="@(!isBusy)" ></MatProgressBar>
+
+<EditForm Model="@cottage" OnValidSubmit="@HandleValidRequest" OnInvalidSubmit="@HandleInvalidRequest">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <div class="col-12 row">
-        <MatTextField Label="Title" class="form-control col-6" @bind-Value="@NewCottage.Title" />
+        <MatTextField Label="Title" class="form-control col-6" @bind-Value="@cottage.Title" />
     </div>
     <div class="col-12 row">
-        <MatTextField Label="Description" aria-multiline="true" class="form-control col-6" @bind-Value="@NewCottage.Description" />
+        <MatTextField Label="Description" aria-multiline="true" class="form-control col-6" @bind-Value="@cottage.Description" />
     </div>
     <div class="col-12 row">
-        <MatTextField Label="Cost per Day" TValue="decimal" class="form-control col-6" @bind-Value="@NewCottage.CostPerDay" />
+        <MatTextField Label="Cost per Day" TValue="decimal" class="form-control col-6" @bind-Value="@cottage.CostPerDay" />
     </div>
     <div class="col-12 row">
-        <MatTextField Label="# of Rooms" class="form-control col-6" @bind-Value="@NewCottage.Rooms" />
+        <MatTextField Label="# of Rooms" class="form-control col-6" @bind-Value="@cottage.Rooms" />
     </div>
     <div class="col-12 row">
-        <MatCheckbox Label="Is Sauna" @bind-Value="@(NewCottage.IsSauna)" />
-        <MatCheckbox Label="Is Electricity" @bind-Value="@(NewCottage.IsElectricity)"  />
+        <MatCheckbox Label="Is Sauna" @bind-Value="@(cottage.IsSauna)" />
+        <MatCheckbox Label="Is Electricity" @bind-Value="@(cottage.IsElectricity)"  />
     </div>
     <div class="col-12 row">
         <label class="col-2 font-weight-bold">Image</label>
@@ -61,42 +59,29 @@
         <label class="col-2 font-weight-bold">Country</label>
         <InputText class="form-control col-3" @bind-Value="owner.HomeAddress.Country" />
     </div> *@
-    <button type="submit">Save</button>
+    <MatButton type="submit">Save</MatButton>
 </EditForm>
 
 @code {
-    public DataObjects.Cottage NewCottage { get; set; }
+    private bool isBusy = false;
+    public Cottage cottage { get; set; } = new Cottage();
     //private Person owner { get; set; }
     string fileContent;
 
-    @* protected override void OnInitialized()
+    private async Task HandleValidRequest()
     {
-        cottage = new Cottage();
-        //owner = new Person();
-        cottage.PictureUrl = "/Pictures/empty.PNG";
-        
-        //owner.HomeAddress = new Address();
-        base.OnInitialized();
-    } *@
+        isBusy = true;
+        Console.WriteLine("Yes, this works like trains' toilet");
+        cottage.DateAdded = DateTime.Now;
 
-    protected override async Task OnInitializedAsync()
-    {
-        NewCottage = new Cottage();
+        if (cottage is not null)
+        {
+            var response = await cottageService.CreateCottageAsync(cottage);
+        }
+        isBusy = false;
     }
 
-    @* private async Task CreateNewCottage()
-    {
-        NewCottage.DateAdded = DateTime.Now;
-        _context ??= await ApplicationDataContextFactory.CreateDbContextAsync();
-
-        if (NewCottage is not null)
-        {
-            _context?.Cottages.Add(NewCottage);
-            _context?.SaveChangesAsync();
-        }
-    } *@
-
-    private void Invalid()
+    private async Task HandleInvalidRequest()
     {
 
     }
@@ -104,6 +89,7 @@
     private async Task UploadImage(IMatFileUploadEntry[] files)
     {
         Console.WriteLine("Uploading...");
+        isBusy = true;
         try
         {
             var file = files.FirstOrDefault();
@@ -113,10 +99,10 @@
                 var imgName = file.Name;
                 if (!String.IsNullOrEmpty(imgName))
                 {
-                    NewCottage.PictureUrl = $"/Pictures/{imgName}";
+                    cottage.PictureUrl = $"/Pictures/{imgName}";
                 }
 
-                NewCottage.PictureUrl = $"/Pictures/{file.Name}";
+                cottage.PictureUrl = $"/Pictures/{file.Name}";
 
                 using (var ms = new MemoryStream())
                 {
@@ -163,13 +149,13 @@
                 Console.WriteLine("File null");
             }
         }
- 
         catch (Exception e)
         {
             fileContent = $"Error:\r\n{e.Message}\r\n{e.StackTrace}";
         }
         finally
         {
+            isBusy = false;
             await InvokeAsync(StateHasChanged);
         }
     }

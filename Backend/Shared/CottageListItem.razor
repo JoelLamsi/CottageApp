@@ -1,5 +1,5 @@
 @using Backend.Models
-@using DataObjects
+@inject CottageService cs
 
 <MatCard class="mat-card" style="max-width: 500px; margin-bottom: 10px;">
     <div class="mat-card-content" style="margin-left: 20px; margin-top: 20px;">
@@ -9,7 +9,7 @@
         <MatCardMedia Wide="true" ImageUrl="@cottage.PictureUrl"></MatCardMedia>
         <MatBody1 class="mat-card-content mat-card-clean-margin" style="margin-left: 20px; margin-top: 20px; margin-right: 20px;">
             <p style="text-overflow: clip;">@cottage.Description</p>
-            <small>@cottage.DateAdded.Date.ToString("dd.M.yyyy")</small><br />
+            <small>@cottage.DateAdded.Value.ToString("dd.M.yyyy")</small><br />
             
             @for (var i = 0; i < 5; i++)
             {
@@ -23,6 +23,7 @@
     </MatCardContent>
     <MatCardActions>
         <MatButton OnClick="@OpenReservationDialog">Make a Reservation</MatButton>
+        <MatButton @onclick="() => DeleteCottage(cottage.Id)" Unelevated="true">Delete</MatButton>
     </MatCardActions>
 </MatCard>
 
@@ -75,5 +76,14 @@
     void SaveReservation()
     {
         Console.WriteLine("Yes, this works like trains' toilet");
+    }
+
+    async void DeleteCottage(int id)
+    {
+        var result = await cs.DeleteCottageAsync(id);
+        if (result.IsSuccessStatusCode)
+        {
+            
+        }
     }
 }

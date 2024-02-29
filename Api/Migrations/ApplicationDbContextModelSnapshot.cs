@@ -15,9 +15,9 @@ namespace Api.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "7.0.12");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
 
-            modelBuilder.Entity("DataObjects.Address", b =>
+            modelBuilder.Entity("SharedLibrary.Entities.Address", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -34,7 +34,6 @@ namespace Api.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Region")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
@@ -53,7 +52,7 @@ namespace Api.Migrations
                     b.ToTable("Addresses");
                 });
 
-            modelBuilder.Entity("DataObjects.Cottage", b =>
+            modelBuilder.Entity("SharedLibrary.Entities.Cottage", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -62,23 +61,23 @@ namespace Api.Migrations
                     b.Property<decimal>("CostPerDay")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("DateAdded")
+                    b.Property<DateTime?>("DateAdded")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
                         .HasMaxLength(500)
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsElectricity")
+                    b.Property<bool?>("IsElectricity")
                         .HasColumnType("INTEGER");
 
-                    b.Property<bool>("IsSauna")
+                    b.Property<bool?>("IsSauna")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("PictureUrl")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Rooms")
+                    b.Property<int?>("Rooms")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Title")
@@ -95,28 +94,23 @@ namespace Api.Migrations
                         {
                             Id = 1,
                             CostPerDay = 50.00m,
-                            DateAdded = new DateTime(2023, 10, 19, 16, 45, 0, 829, DateTimeKind.Local).AddTicks(354),
+                            DateAdded = new DateTime(2024, 2, 17, 17, 22, 2, 320, DateTimeKind.Local).AddTicks(8211),
                             Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                            IsElectricity = false,
-                            IsSauna = false,
                             PictureUrl = "img/cottage1.jpeg",
-                            Rooms = 0,
                             Title = "Foo"
                         },
                         new
                         {
                             Id = 2,
                             CostPerDay = 250.00m,
-                            DateAdded = new DateTime(2023, 10, 19, 16, 45, 0, 829, DateTimeKind.Local).AddTicks(485),
-                            IsElectricity = false,
-                            IsSauna = false,
+                            DateAdded = new DateTime(2024, 2, 17, 17, 22, 2, 320, DateTimeKind.Local).AddTicks(8317),
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                             PictureUrl = "img/cottage2.jpeg",
-                            Rooms = 0,
                             Title = "Bar"
                         });
                 });
 
-            modelBuilder.Entity("DataObjects.Person", b =>
+            modelBuilder.Entity("SharedLibrary.Entities.Person", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -131,7 +125,7 @@ namespace Api.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("HomeAddressId")
+                    b.Property<int?>("HomeAddressId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("LastName")
@@ -150,7 +144,7 @@ namespace Api.Migrations
                     b.ToTable("People");
                 });
 
-            modelBuilder.Entity("DataObjects.Reservation", b =>
+            modelBuilder.Entity("SharedLibrary.Entities.Reservation", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -162,7 +156,7 @@ namespace Api.Migrations
                     b.Property<DateTime>("CheckOutDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("CottageId")
+                    b.Property<int?>("CottageId")
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("TotalPrice")
@@ -175,31 +169,22 @@ namespace Api.Migrations
                     b.ToTable("Reservations");
                 });
 
-            modelBuilder.Entity("DataObjects.Person", b =>
+            modelBuilder.Entity("SharedLibrary.Entities.Person", b =>
                 {
-                    b.HasOne("DataObjects.Address", "HomeAddress")
+                    b.HasOne("SharedLibrary.Entities.Address", "HomeAddress")
                         .WithMany()
-                        .HasForeignKey("HomeAddressId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("HomeAddressId");
 
                     b.Navigation("HomeAddress");
                 });
 
-            modelBuilder.Entity("DataObjects.Reservation", b =>
+            modelBuilder.Entity("SharedLibrary.Entities.Reservation", b =>
                 {
-                    b.HasOne("DataObjects.Cottage", "Cottage")
-                        .WithMany("Reservations")
-                        .HasForeignKey("CottageId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("SharedLibrary.Entities.Cottage", "Cottage")
+                        .WithMany()
+                        .HasForeignKey("CottageId");
 
                     b.Navigation("Cottage");
-                });
-
-            modelBuilder.Entity("DataObjects.Cottage", b =>
-                {
-                    b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/Client.csproj": {}
+    "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Client/Client.csproj": {}
   },
   "projects": {
-    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/Client.csproj": {
+    "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Client/Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/Client.csproj",
+        "projectUniqueName": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Client/Client.csproj",
         "projectName": "Client",
-        "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/Client.csproj",
+        "projectPath": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Client/Client.csproj",
         "packagesPath": "/home/joel/.nuget/packages/",
-        "outputPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Client/obj/",
+        "outputPath": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj": {
-                "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj"
+              "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/SharedLibrary.csproj": {
+                "projectPath": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/SharedLibrary.csproj"
               }
             }
           }
@@ -39,17 +39,12 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
+            "MatBlazor": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[2.10.0, )"
             }
           },
           "imports": [
@@ -63,47 +58,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.0, 7.0.0]"
-            }
-          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/joel/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "browser-wasm": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj": {
+    "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj",
-        "projectName": "DataObjects",
-        "projectPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/DataObjects.csproj",
+        "projectUniqueName": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/SharedLibrary.csproj",
+        "projectName": "SharedLibrary",
+        "projectPath": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/SharedLibrary.csproj",
         "packagesPath": "/home/joel/.nuget/packages/",
-        "outputPath": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/DataObjects/obj/",
+        "outputPath": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -114,8 +101,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -132,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/joel/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,12 @@
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/bin/Debug/net8.0/SharedLibrary.deps.json
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/bin/Debug/net8.0/SharedLibrary.dll
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/bin/Debug/net8.0/SharedLibrary.pdb
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/SharedLibrary.AssemblyInfoInputs.cache
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/SharedLibrary.AssemblyInfo.cs
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/SharedLibrary.csproj.CoreCompileInputs.cache
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/SharedLibrary.sourcelink.json
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/SharedLibrary.dll
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/refint/SharedLibrary.dll
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/SharedLibrary.pdb
+/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/SharedLibrary/obj/Debug/net8.0/ref/SharedLibrary.dll

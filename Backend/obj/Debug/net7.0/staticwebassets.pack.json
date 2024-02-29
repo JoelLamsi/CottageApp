@@ -1,71 +1,71 @@
 {
   "Files": [
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/obj/Debug/net7.0/scopedcss/projectbundle/Backend.bundle.scp.css",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/obj/Debug/net7.0/scopedcss/projectbundle/Backend.bundle.scp.css",
       "PackagePath": "staticwebassets/Backend.bundle.scp.css"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/ICON-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/README.md",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/README.md",
       "PackagePath": "staticwebassets/css/open-iconic/README.md"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/site.css",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/data/cottages.json",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/data/cottages.json",
       "PackagePath": "staticwebassets/data/cottages.json"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/favicon.ico",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/img/cottage1.jpeg",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/img/cottage1.jpeg",
       "PackagePath": "staticwebassets/img/cottage1.jpeg"
     },
     {
-      "Id": "/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/img/cottage2.jpeg",
+      "Id": "/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/wwwroot/img/cottage2.jpeg",
       "PackagePath": "staticwebassets/img/cottage2.jpeg"
     },
     {

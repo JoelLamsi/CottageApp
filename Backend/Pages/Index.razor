@@ -1,7 +1,7 @@
 ﻿@page "/"
-@using DataObjects
-@using Backend.Services
 @inject ICottageService cottageService
+
+<MatProgressBar id="progressBar" Indeterminate="@(isBusy)" Closed="@(!isBusy)" ></MatProgressBar>
 
 @foreach (var cottage in Cottages)
 {
@@ -9,15 +9,15 @@
 }
 
 @code {
-    public List<Cottage>? Cottages { get; set; } = new List<Cottage>();
+    public List<Cottage> Cottages { get; set; } = new List<Cottage>();
+    
+    bool isBusy = false;
 
     protected override async Task OnInitializedAsync()
     {
-        await GetCottages();
-    }
-
-    private async Task GetCottages()
-    {
-        Cottages = await cottageService.GetCottagesAsync();
+        isBusy = true;
+        var cottages = await cottageService.GetCottagesAsync();
+        Cottages = cottages;
+        isBusy = false;
     }
 }

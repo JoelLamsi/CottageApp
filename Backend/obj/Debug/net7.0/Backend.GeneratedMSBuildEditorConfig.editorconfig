@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Backend
 build_property.RootNamespace = Backend
-build_property.ProjectDir = /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/
+build_property.ProjectDir = /media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend
+build_property.MSBuildProjectDirectory = /media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend
 build_property._RazorSourceGeneratorDebug = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/App.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Pages/Error.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Pages/Index.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Pages/PostCottage.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Pages/PostCottage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdENvdHRhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Shared/MainLayout.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Shared/NavMenu.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Shared/SurveyPrompt.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/_Imports.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Shared/CottageListItem.razor]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Shared/CottageListItem.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvdHRhZ2VMaXN0SXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-abs7ulh5n9
 
-[/media/joel/TOSHIBA EXT4/dev/BlazorProjects/CottageApp-1/Backend/Pages/_Host.cshtml]
+[/media/joel/TOSHIBA EXT/dev/BlazorProjects/CottageApp-1/Backend/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

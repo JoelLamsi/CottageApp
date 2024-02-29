@@ -1,0 +1,76 @@
+﻿<MatCard class="mat-card" style="max-width: 500px; margin-bottom: 10px;">
+    <div class="mat-card-content" style="margin-left: 20px; margin-top: 20px;">
+        <MatHeadline5 class="mat-card-clean-margin">@cottage.Title</MatHeadline5>
+    </div>
+    <MatCardContent>
+        <MatCardMedia Wide="true" ImageUrl="@cottage.PictureUrl"></MatCardMedia>
+        <MatBody1 class="mat-card-content mat-card-clean-margin" style="margin-left: 20px; margin-top: 20px; margin-right: 20px;">
+            <p style="text-overflow: clip;">@cottage.Description</p>
+            <small>@(cottage.DateAdded.Value.ToString("dd.M.yyyy"))</small><br />
+            
+            @for (var i = 0; i < 5; i++)
+            {
+                if (i < cottage.AvgRating)
+                {
+                    <MatIcon Icon="star_rate" Style="color: #fcc00a"></MatIcon>;
+                }
+            }
+            
+        </MatBody1>
+    </MatCardContent>
+    <MatCardActions>
+        <MatButton OnClick="@OpenReservationDialog">Make a Reservation</MatButton>
+    </MatCardActions>
+</MatCard>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen" CanBeClosed="true">
+    <MatDialogContent>
+        <EditForm Model="reservationModel" OnValidSubmit="SaveReservation">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            
+            <MatHeadline5 class="mat-card-clean-margin">@cottage.Title</MatHeadline5>
+            
+            <MatDatePicker Label="Check-In" @bind-Value="reservationModel.CheckInDate" /><br/>
+            <MatDatePicker Label="Check-Out" @bind-Value="reservationModel.CheckOutDate" /><br/>
+
+            <MatDivider />
+
+            <MatTextField Label="First name" @bind-Value="reservationModel.FirstName" />
+            <MatTextField Label="Last name" @bind-Value="reservationModel.LastName" /><br />
+
+            <MatTextField Label="Phone nr" @bind-Value="reservationModel.PhoneNumber" />
+            <MatTextField Label="Email" @bind-Value="reservationModel.Email" /><br />
+
+            <MatButton OnClick="@(() => dialogIsOpen = false)">Cancel</MatButton>
+            <MatButton id="okButton" Unelevated="true" Type="submit">Ok</MatButton>
+        </EditForm>
+    </MatDialogContent>
+</MatDialog>
+
+@code {
+    [Parameter] public Cottage cottage { get; set; }
+    public Reservation Reservation { get; set; } = new Reservation();
+    bool dialogIsOpen = false;
+    DateTime checkInDate = DateTime.Now;
+    DateTime checkOutDate = DateTime.Now;
+
+    ReservationModel reservationModel = new ReservationModel();
+
+    decimal? totalPrice = 0.00m;
+
+    void OpenReservationDialog()
+    {
+        dialogIsOpen = true;
+        Reservation = new Reservation();
+        Reservation.CheckInDate = DateTime.Now;
+        TimeSpan interval = checkOutDate - checkInDate;
+        Reservation.TotalPrice = interval.Days * cottage.CostPerDay;
+        totalPrice = Reservation.TotalPrice;
+    }
+
+    void SaveReservation()
+    {
+        Console.WriteLine("Yes, this works like trains' toilet");
+    }
+}
